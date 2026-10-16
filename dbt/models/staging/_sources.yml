@@ -1,0 +1,54 @@
+version: 2
+
+sources:
+  - name: raw
+    database: LUMORA
+    schema: RAW
+    description: >
+      As-landed synthetic Lumora source systems. Every column is text;
+      typing happens in staging models. Loaded via snowflake/02_load_from_stage.sql.
+    tables:
+      - name: raw_customers
+        description: One row per customer account.
+        columns:
+          - name: customer_id
+            data_tests: [unique, not_null]
+      - name: raw_plans
+        columns:
+          - name: plan_id
+            data_tests: [unique, not_null]
+      - name: raw_sales_reps
+        columns:
+          - name: sales_rep_id
+            data_tests: [unique, not_null]
+      - name: raw_subscriptions
+        description: One row per subscription version (plan or seat change closes a row).
+        columns:
+          - name: subscription_id
+            data_tests: [unique, not_null]
+          - name: customer_id
+            data_tests:
+              - not_null
+              - relationships:
+                  to: source('raw', 'raw_customers')
+                  field: customer_id
+      - name: raw_invoices
+        columns:
+          - name: invoice_id
+            data_tests: [unique, not_null]
+      - name: raw_payments
+        columns:
+          - name: payment_id
+            data_tests: [unique, not_null]
+          - name: invoice_id
+            data_tests:
+              - relationships:
+                  to: source('raw', 'raw_invoices')
+                  field: invoice_id
+      - name: raw_product_usage
+        description: One row per customer per month.
+        columns:
+          - name: customer_id
+            data_tests: [not_null]
+      - name: raw_marketing_spend
+        description: One row per month per acquisition channel.
