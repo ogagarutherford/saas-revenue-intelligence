@@ -749,3 +749,2509 @@ parsing.
 [0m15:13:32.554776 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71a4535db890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71a453434320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71a4530084d0>]}
 [0m15:13:32.555454 [debug] [MainThread]: Flushing usage events
 [0m15:13:32.940024 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:27:11.333692 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x764207554ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76420950f250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x764205cc7c50>]}
+
+
+============================== 20:27:11.340659 | a195cb81-a7d0-4789-87de-814fd921d544 ==============================
+[0m20:27:11.340659 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m20:27:11.341494 [debug] [MainThread]: running dbt with arguments {'warn_error': 'None', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'introspect': 'True', 'log_format': 'default', 'no_print': 'None', 'empty': 'None', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'quiet': 'False', 'target_path': 'None', 'invocation_command': 'dbt deps', 'debug': 'False', 'printer_width': '80', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'maximum_seed_size_mib': '1', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/home/codespace/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/workspaces/saas-revenue-intelligence/dbt/logs', 'use_experimental_parser': 'False', 'static_parser': 'True', 'partial_parse': 'True'}
+[0m20:27:11.341969 [debug] [MainThread]: Tracking: tracking
+[0m20:27:11.541481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a195cb81-a7d0-4789-87de-814fd921d544', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x764205ed7bb0>]}
+[0m20:27:11.566467 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-3wrrsj6v'
+[0m20:27:11.567414 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m20:27:11.641707 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m20:27:11.644237 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m20:27:11.688366 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m20:27:11.725541 [info ] [MainThread]: Updating lock file in file path: /workspaces/saas-revenue-intelligence/dbt/package-lock.yml
+[0m20:27:11.729176 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-_iljgtem'
+[0m20:27:11.735292 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m20:27:12.017634 [info ] [MainThread]: Installed from version 1.4.1
+[0m20:27:12.018314 [info ] [MainThread]: Up to date!
+[0m20:27:12.018872 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'a195cb81-a7d0-4789-87de-814fd921d544', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7642086d8050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x764205c64160>]}
+[0m20:27:12.021751 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": true, "command_wall_clock_time": 0.7898743, "process_in_blocks": "55496", "process_kernel_time": 0.275223, "process_mem_max_rss": "141212", "process_out_blocks": "2312", "process_user_time": 3.289763}
+[0m20:27:12.022430 [debug] [MainThread]: Command `dbt deps` succeeded at 20:27:12.022327 after 0.79 seconds
+[0m20:27:12.022856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x764205b49350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x764205afa3f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x764205c00500>]}
+[0m20:27:12.023254 [debug] [MainThread]: Flushing usage events
+[0m20:27:12.576216 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:28:13.016958 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b8758e8ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b877873250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b8740c3b10>]}
+
+
+============================== 20:28:13.020296 | f4293f4b-e9a9-4c29-a5ae-9a12e81f5904 ==============================
+[0m20:28:13.020296 [info ] [MainThread]: Running with dbt=1.13.0-b1
+[0m20:28:13.021133 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'static_parser': 'True', 'no_print': 'None', 'introspect': 'True', 'log_format': 'default', 'profiles_dir': '/home/codespace/.dbt', 'warn_error': 'None', 'fail_fast': 'False', 'indirect_selection': 'eager', 'target_path': 'None', 'invocation_command': 'dbt build', 'debug': 'False', 'cache_selected_only': 'False', 'version_check': 'True', 'write_json': 'True', 'log_cache_events': 'False', 'log_path': '/workspaces/saas-revenue-intelligence/dbt/logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'use_colors': 'True', 'printer_width': '80', 'quiet': 'False', 'maximum_seed_size_mib': '1', 'hints_enabled': 'True'}
+[0m20:28:13.021547 [debug] [MainThread]: Tracking: tracking
+[0m20:28:14.389406 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m20:28:14.390004 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m20:28:14.390428 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m20:28:14.691802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85d5d0770>]}
+[0m20:28:14.767361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85d3768b0>]}
+[0m20:28:14.769440 [info ] [MainThread]: Registered adapter: snowflake=1.12.3
+[0m20:28:15.360559 [debug] [MainThread]: checksum: 89a7a3d7d0f42589b26d68deb2f81c8064eb2d4469c431c94a427a39f07067bb, vars: {}, profile: lumora, target: dev, version: 1.13.0b1
+[0m20:28:15.523407 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m20:28:15.524119 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m20:28:15.524723 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85cfbf850>]}
+[0m20:28:18.144801 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.lumora.marts
+[0m20:28:18.148921 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85cf4ea80>]}
+[0m20:28:18.324074 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/saas-revenue-intelligence/dbt/target/manifest.json
+[0m20:28:18.328141 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/saas-revenue-intelligence/dbt/target/semantic_manifest.json
+[0m20:28:18.347340 [debug] [MainThread]: Wrote artifact OsiDocument to /workspaces/saas-revenue-intelligence/dbt/target/osi_document.json
+[0m20:28:18.411999 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85c72d1d0>]}
+[0m20:28:18.412576 [info ] [MainThread]: Found 11 models, 47 data tests, 8 sources, 680 macros
+[0m20:28:18.421147 [info ] [MainThread]: 
+[0m20:28:18.422109 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m20:28:18.422657 [info ] [MainThread]: 
+[0m20:28:18.423659 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m20:28:18.428954 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_LUMORA'
+[0m20:28:18.438108 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_LUMORA'
+[0m20:28:18.457937 [debug] [ThreadPool]: Using snowflake connection "list_LUMORA"
+[0m20:28:18.458849 [debug] [ThreadPool]: On list_LUMORA: show terse schemas in database LUMORA
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "connection_name": "list_LUMORA"} */
+[0m20:28:18.459212 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:28:18.458464 [debug] [ThreadPool]: Using snowflake connection "list_LUMORA"
+[0m20:28:18.459715 [debug] [ThreadPool]: On list_LUMORA: show terse schemas in database LUMORA
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "connection_name": "list_LUMORA"} */
+[0m20:28:18.460203 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:28:19.636634 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 1.176 seconds
+[0m20:28:19.640304 [debug] [ThreadPool]: SQL status: SUCCESS 6 in 1.181 seconds
+[0m20:28:19.651031 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_LUMORA, now list_LUMORA_INTERMEDIATE)
+[0m20:28:19.677249 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_LUMORA, now list_LUMORA_STAGING)
+[0m20:28:19.690517 [debug] [ThreadPool]: Using snowflake connection "list_LUMORA_STAGING"
+[0m20:28:19.687852 [debug] [ThreadPool]: Using snowflake connection "list_LUMORA_INTERMEDIATE"
+[0m20:28:19.695349 [debug] [ThreadPool]: On list_LUMORA_INTERMEDIATE: show objects in LUMORA.INTERMEDIATE
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "connection_name": "list_LUMORA_INTERMEDIATE"} */;
+[0m20:28:19.694674 [debug] [ThreadPool]: On list_LUMORA_STAGING: show objects in LUMORA.STAGING
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "connection_name": "list_LUMORA_STAGING"} */;
+[0m20:28:19.774298 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.077 seconds
+[0m20:28:19.781199 [debug] [ThreadPool]: Using snowflake connection "list_LUMORA_STAGING"
+[0m20:28:19.783148 [debug] [ThreadPool]: On list_LUMORA_STAGING: show user functions in LUMORA.STAGING
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "connection_name": "list_LUMORA_STAGING"} */
+[0m20:28:19.782717 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.087 seconds
+[0m20:28:19.786055 [debug] [ThreadPool]: Using snowflake connection "list_LUMORA_INTERMEDIATE"
+[0m20:28:19.787067 [debug] [ThreadPool]: On list_LUMORA_INTERMEDIATE: show user functions in LUMORA.INTERMEDIATE
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "connection_name": "list_LUMORA_INTERMEDIATE"} */
+[0m20:28:19.846604 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.059 seconds
+[0m20:28:19.885320 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.102 seconds
+[0m20:28:19.887287 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85ccc2680>]}
+[0m20:28:19.890692 [debug] [Thread-2 (]: Began running node model.lumora.int_month_spine
+[0m20:28:19.891567 [debug] [Thread-4 (]: Began running node test.lumora.source_not_null_raw_raw_customers_customer_id.be576d1f05
+[0m20:28:19.892221 [debug] [Thread-5 (]: Began running node test.lumora.source_not_null_raw_raw_invoices_invoice_id.0b96e1e185
+[0m20:28:19.892969 [debug] [Thread-3 (]: Began running node model.lumora.stg_marketing_spend
+[0m20:28:19.894409 [info ] [Thread-2 (]: 1 of 58 START sql view model INTERMEDIATE.int_month_spine ...................... [RUN]
+[0m20:28:19.895089 [info ] [Thread-4 (]: 3 of 58 START test source_not_null_raw_raw_customers_customer_id ............... [RUN]
+[0m20:28:19.895625 [info ] [Thread-5 (]: 4 of 58 START test source_not_null_raw_raw_invoices_invoice_id ................. [RUN]
+[0m20:28:19.896238 [info ] [Thread-3 (]: 2 of 58 START sql view model STAGING.stg_marketing_spend ....................... [RUN]
+[0m20:28:19.896897 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly list_LUMORA_INTERMEDIATE, now model.lumora.int_month_spine)
+[0m20:28:19.897484 [debug] [Thread-4 (]: Acquiring new snowflake connection 'test.lumora.source_not_null_raw_raw_customers_customer_id.be576d1f05'
+[0m20:28:19.898181 [debug] [Thread-5 (]: Acquiring new snowflake connection 'test.lumora.source_not_null_raw_raw_invoices_invoice_id.0b96e1e185'
+[0m20:28:19.899155 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly list_LUMORA_STAGING, now model.lumora.stg_marketing_spend)
+[0m20:28:19.899797 [debug] [Thread-2 (]: Began compiling node model.lumora.int_month_spine
+[0m20:28:19.900349 [debug] [Thread-4 (]: Began compiling node test.lumora.source_not_null_raw_raw_customers_customer_id.be576d1f05
+[0m20:28:19.900964 [debug] [Thread-5 (]: Began compiling node test.lumora.source_not_null_raw_raw_invoices_invoice_id.0b96e1e185
+[0m20:28:19.901415 [debug] [Thread-3 (]: Began compiling node model.lumora.stg_marketing_spend
+[0m20:28:19.912515 [debug] [Thread-2 (]: Using snowflake connection "model.lumora.int_month_spine"
+[0m20:28:19.929559 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.source_not_null_raw_raw_customers_customer_id.be576d1f05"
+[0m20:28:19.930298 [debug] [Thread-5 (]: Writing injected SQL for node "test.lumora.source_not_null_raw_raw_invoices_invoice_id.0b96e1e185"
+[0m20:28:19.932127 [debug] [Thread-3 (]: Writing injected SQL for node "model.lumora.stg_marketing_spend"
+[0m20:28:19.932630 [debug] [Thread-2 (]: On model.lumora.int_month_spine: select datediff(
+        month,
+        cast('2023-01-01' as date),
+        cast('2026-01-01' as date)
+        )
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "model.lumora.int_month_spine"} */
+[0m20:28:19.934562 [debug] [Thread-4 (]: Began executing node test.lumora.source_not_null_raw_raw_customers_customer_id.be576d1f05
+[0m20:28:19.933488 [debug] [Thread-5 (]: Began executing node test.lumora.source_not_null_raw_raw_invoices_invoice_id.0b96e1e185
+[0m20:28:19.966255 [debug] [Thread-3 (]: Began executing node model.lumora.stg_marketing_spend
+[0m20:28:19.984372 [debug] [Thread-5 (]: Writing runtime sql for node "test.lumora.source_not_null_raw_raw_invoices_invoice_id.0b96e1e185"
+[0m20:28:20.000124 [debug] [Thread-5 (]: Using snowflake connection "test.lumora.source_not_null_raw_raw_invoices_invoice_id.0b96e1e185"
+[0m20:28:19.982040 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.source_not_null_raw_raw_customers_customer_id.be576d1f05"
+[0m20:28:20.008121 [debug] [Thread-5 (]: On test.lumora.source_not_null_raw_raw_invoices_invoice_id.0b96e1e185: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select invoice_id
+from LUMORA.RAW.raw_invoices
+where invoice_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_not_null_raw_raw_invoices_invoice_id.0b96e1e185"} */
+[0m20:28:20.020426 [debug] [Thread-5 (]: Opening a new connection, currently in state init
+[0m20:28:20.019751 [debug] [Thread-3 (]: Writing runtime sql for node "model.lumora.stg_marketing_spend"
+[0m20:28:20.060568 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.source_not_null_raw_raw_customers_customer_id.be576d1f05"
+[0m20:28:20.061126 [debug] [Thread-4 (]: On test.lumora.source_not_null_raw_raw_customers_customer_id.be576d1f05: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select customer_id
+from LUMORA.RAW.raw_customers
+where customer_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_not_null_raw_raw_customers_customer_id.be576d1f05"} */
+[0m20:28:20.061769 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m20:28:20.108084 [debug] [Thread-3 (]: Using snowflake connection "model.lumora.stg_marketing_spend"
+[0m20:28:20.109379 [debug] [Thread-3 (]: On model.lumora.stg_marketing_spend: create or replace   view LUMORA.STAGING.stg_marketing_spend
+  
+  
+  
+  
+  as (
+    with source as (
+    select * from LUMORA.RAW.raw_marketing_spend
+),
+
+typed as (
+    select
+        cast(spend_month as date)               as spend_month,
+        channel,
+        cast(media_spend_eur as decimal(12, 2)) as media_spend_eur,
+        cast(sales_cost_eur as decimal(12, 2))  as sales_cost_eur,
+        cast(tooling_cost_eur as decimal(12, 2)) as tooling_cost_eur
+    from source
+)
+
+select
+    *,
+    media_spend_eur + sales_cost_eur + tooling_cost_eur as total_acquisition_cost_eur
+from typed
+  )
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "model.lumora.stg_marketing_spend"} */;
+[0m20:28:20.420409 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.310 seconds
+[0m20:28:20.442929 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85c20bdd0>]}
+[0m20:28:20.443740 [info ] [Thread-3 (]: 2 of 58 OK created sql view model STAGING.stg_marketing_spend .................. [[32mSUCCESS 1[0m in 0.54s]
+[0m20:28:20.444698 [debug] [Thread-3 (]: Finished running node model.lumora.stg_marketing_spend
+[0m20:28:20.445417 [debug] [Thread-3 (]: Began running node test.lumora.source_not_null_raw_raw_payments_payment_id.0527cece1c
+[0m20:28:20.446271 [info ] [Thread-3 (]: 5 of 58 START test source_not_null_raw_raw_payments_payment_id ................. [RUN]
+[0m20:28:20.447162 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.lumora.stg_marketing_spend, now test.lumora.source_not_null_raw_raw_payments_payment_id.0527cece1c)
+[0m20:28:20.447630 [debug] [Thread-3 (]: Began compiling node test.lumora.source_not_null_raw_raw_payments_payment_id.0527cece1c
+[0m20:28:20.455315 [debug] [Thread-3 (]: Writing injected SQL for node "test.lumora.source_not_null_raw_raw_payments_payment_id.0527cece1c"
+[0m20:28:20.456037 [debug] [Thread-3 (]: Began executing node test.lumora.source_not_null_raw_raw_payments_payment_id.0527cece1c
+[0m20:28:20.457635 [debug] [Thread-3 (]: Writing runtime sql for node "test.lumora.source_not_null_raw_raw_payments_payment_id.0527cece1c"
+[0m20:28:20.458536 [debug] [Thread-3 (]: Using snowflake connection "test.lumora.source_not_null_raw_raw_payments_payment_id.0527cece1c"
+[0m20:28:20.458978 [debug] [Thread-3 (]: On test.lumora.source_not_null_raw_raw_payments_payment_id.0527cece1c: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select payment_id
+from LUMORA.RAW.raw_payments
+where payment_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_not_null_raw_raw_payments_payment_id.0527cece1c"} */
+[0m20:28:20.485766 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.552 seconds
+[0m20:28:20.488458 [debug] [Thread-2 (]: Writing injected SQL for node "model.lumora.int_month_spine"
+[0m20:28:20.489561 [debug] [Thread-2 (]: Began executing node model.lumora.int_month_spine
+[0m20:28:20.492383 [debug] [Thread-2 (]: Writing runtime sql for node "model.lumora.int_month_spine"
+[0m20:28:20.494039 [debug] [Thread-2 (]: Using snowflake connection "model.lumora.int_month_spine"
+[0m20:28:20.494565 [debug] [Thread-2 (]: On model.lumora.int_month_spine: create or replace   view LUMORA.INTERMEDIATE.int_month_spine
+  
+  
+  
+  
+  as (
+    -- One row per calendar month in the analysis window (vars in dbt_project.yml).
+with spine as (
+    
+
+
+
+
+
+with rawdata as (
+
+    
+
+    
+
+    with p as (
+        select 0 as generated_number union all select 1
+    ), unioned as (
+
+    select
+
+    
+    p0.generated_number * power(2, 0)
+     + 
+    
+    p1.generated_number * power(2, 1)
+     + 
+    
+    p2.generated_number * power(2, 2)
+     + 
+    
+    p3.generated_number * power(2, 3)
+     + 
+    
+    p4.generated_number * power(2, 4)
+     + 
+    
+    p5.generated_number * power(2, 5)
+    
+    
+    + 1
+    as generated_number
+
+    from
+
+    
+    p as p0
+     cross join 
+    
+    p as p1
+     cross join 
+    
+    p as p2
+     cross join 
+    
+    p as p3
+     cross join 
+    
+    p as p4
+     cross join 
+    
+    p as p5
+    
+    
+
+    )
+
+    select *
+    from unioned
+    where generated_number <= 36
+    order by generated_number
+
+
+
+),
+
+all_periods as (
+
+    select (
+        
+
+    dateadd(
+        month,
+        row_number() over (order by generated_number) - 1,
+        cast('2023-01-01' as date)
+        )
+
+
+    ) as date_month
+    from rawdata
+
+),
+
+filtered as (
+
+    select *
+    from all_periods
+    where date_month <= cast('2026-01-01' as date)
+
+)
+
+select * from filtered
+
+
+)
+
+select
+    cast(date_month as date)                         as month_start,
+    cast(cast(
+        
+
+    dateadd(
+        day,
+        -1,
+        
+
+    dateadd(
+        month,
+        1,
+        date_trunc('month', date_month)
+        )
+
+
+        )
+
+
+        as date) as date) as month_end
+from spine
+  )
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "model.lumora.int_month_spine"} */;
+[0m20:28:20.576329 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.556 seconds
+[0m20:28:20.580672 [info ] [Thread-5 (]: 4 of 58 PASS source_not_null_raw_raw_invoices_invoice_id ....................... [[32mPASS[0m in 0.68s]
+[0m20:28:20.582899 [debug] [Thread-5 (]: Finished running node test.lumora.source_not_null_raw_raw_invoices_invoice_id.0b96e1e185
+[0m20:28:20.583399 [debug] [Thread-5 (]: Began running node test.lumora.source_not_null_raw_raw_plans_plan_id.99061d7fb5
+[0m20:28:20.582237 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.520 seconds
+[0m20:28:20.583807 [info ] [Thread-5 (]: 6 of 58 START test source_not_null_raw_raw_plans_plan_id ....................... [RUN]
+[0m20:28:20.586730 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly test.lumora.source_not_null_raw_raw_invoices_invoice_id.0b96e1e185, now test.lumora.source_not_null_raw_raw_plans_plan_id.99061d7fb5)
+[0m20:28:20.587737 [debug] [Thread-5 (]: Began compiling node test.lumora.source_not_null_raw_raw_plans_plan_id.99061d7fb5
+[0m20:28:20.585773 [info ] [Thread-4 (]: 3 of 58 PASS source_not_null_raw_raw_customers_customer_id ..................... [[32mPASS[0m in 0.69s]
+[0m20:28:20.597128 [debug] [Thread-4 (]: Finished running node test.lumora.source_not_null_raw_raw_customers_customer_id.be576d1f05
+[0m20:28:20.597629 [debug] [Thread-4 (]: Began running node test.lumora.source_not_null_raw_raw_product_usage_customer_id.e52a7fc0b5
+[0m20:28:20.596495 [debug] [Thread-5 (]: Writing injected SQL for node "test.lumora.source_not_null_raw_raw_plans_plan_id.99061d7fb5"
+[0m20:28:20.598178 [info ] [Thread-4 (]: 7 of 58 START test source_not_null_raw_raw_product_usage_customer_id ........... [RUN]
+[0m20:28:20.599065 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.source_not_null_raw_raw_customers_customer_id.be576d1f05, now test.lumora.source_not_null_raw_raw_product_usage_customer_id.e52a7fc0b5)
+[0m20:28:20.600032 [debug] [Thread-4 (]: Began compiling node test.lumora.source_not_null_raw_raw_product_usage_customer_id.e52a7fc0b5
+[0m20:28:20.605885 [debug] [Thread-5 (]: Began executing node test.lumora.source_not_null_raw_raw_plans_plan_id.99061d7fb5
+[0m20:28:20.608141 [debug] [Thread-5 (]: Writing runtime sql for node "test.lumora.source_not_null_raw_raw_plans_plan_id.99061d7fb5"
+[0m20:28:20.611480 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.source_not_null_raw_raw_product_usage_customer_id.e52a7fc0b5"
+[0m20:28:20.612674 [debug] [Thread-4 (]: Began executing node test.lumora.source_not_null_raw_raw_product_usage_customer_id.e52a7fc0b5
+[0m20:28:20.615594 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.source_not_null_raw_raw_product_usage_customer_id.e52a7fc0b5"
+[0m20:28:20.613741 [debug] [Thread-5 (]: Using snowflake connection "test.lumora.source_not_null_raw_raw_plans_plan_id.99061d7fb5"
+[0m20:28:20.616303 [debug] [Thread-5 (]: On test.lumora.source_not_null_raw_raw_plans_plan_id.99061d7fb5: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select plan_id
+from LUMORA.RAW.raw_plans
+where plan_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_not_null_raw_raw_plans_plan_id.99061d7fb5"} */
+[0m20:28:20.617983 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.source_not_null_raw_raw_product_usage_customer_id.e52a7fc0b5"
+[0m20:28:20.618796 [debug] [Thread-4 (]: On test.lumora.source_not_null_raw_raw_product_usage_customer_id.e52a7fc0b5: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select customer_id
+from LUMORA.RAW.raw_product_usage
+where customer_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_not_null_raw_raw_product_usage_customer_id.e52a7fc0b5"} */
+[0m20:28:20.700713 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.206 seconds
+[0m20:28:20.703754 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b854724b50>]}
+[0m20:28:20.704625 [info ] [Thread-2 (]: 1 of 58 OK created sql view model INTERMEDIATE.int_month_spine ................. [[32mSUCCESS 1[0m in 0.81s]
+[0m20:28:20.705352 [debug] [Thread-2 (]: Finished running node model.lumora.int_month_spine
+[0m20:28:20.705789 [debug] [Thread-2 (]: Began running node test.lumora.source_not_null_raw_raw_sales_reps_sales_rep_id.7bd2a8f7ed
+[0m20:28:20.706846 [info ] [Thread-2 (]: 8 of 58 START test source_not_null_raw_raw_sales_reps_sales_rep_id ............. [RUN]
+[0m20:28:20.708840 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.lumora.int_month_spine, now test.lumora.source_not_null_raw_raw_sales_reps_sales_rep_id.7bd2a8f7ed)
+[0m20:28:20.709351 [debug] [Thread-2 (]: Began compiling node test.lumora.source_not_null_raw_raw_sales_reps_sales_rep_id.7bd2a8f7ed
+[0m20:28:20.708071 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.249 seconds
+[0m20:28:20.725688 [info ] [Thread-3 (]: 5 of 58 PASS source_not_null_raw_raw_payments_payment_id ....................... [[32mPASS[0m in 0.28s]
+[0m20:28:20.726740 [debug] [Thread-3 (]: Finished running node test.lumora.source_not_null_raw_raw_payments_payment_id.0527cece1c
+[0m20:28:20.718407 [debug] [Thread-2 (]: Writing injected SQL for node "test.lumora.source_not_null_raw_raw_sales_reps_sales_rep_id.7bd2a8f7ed"
+[0m20:28:20.731068 [debug] [Thread-2 (]: Began executing node test.lumora.source_not_null_raw_raw_sales_reps_sales_rep_id.7bd2a8f7ed
+[0m20:28:20.734408 [debug] [Thread-2 (]: Writing runtime sql for node "test.lumora.source_not_null_raw_raw_sales_reps_sales_rep_id.7bd2a8f7ed"
+[0m20:28:20.729341 [debug] [Thread-3 (]: Began running node test.lumora.source_not_null_raw_raw_subscriptions_customer_id.fcb61f2e15
+[0m20:28:20.736550 [debug] [Thread-2 (]: Using snowflake connection "test.lumora.source_not_null_raw_raw_sales_reps_sales_rep_id.7bd2a8f7ed"
+[0m20:28:20.737585 [debug] [Thread-2 (]: On test.lumora.source_not_null_raw_raw_sales_reps_sales_rep_id.7bd2a8f7ed: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select sales_rep_id
+from LUMORA.RAW.raw_sales_reps
+where sales_rep_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_not_null_raw_raw_sales_reps_sales_rep_id.7bd2a8f7ed"} */
+[0m20:28:20.735282 [info ] [Thread-3 (]: 9 of 58 START test source_not_null_raw_raw_subscriptions_customer_id ........... [RUN]
+[0m20:28:20.738595 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.lumora.source_not_null_raw_raw_payments_payment_id.0527cece1c, now test.lumora.source_not_null_raw_raw_subscriptions_customer_id.fcb61f2e15)
+[0m20:28:20.739420 [debug] [Thread-3 (]: Began compiling node test.lumora.source_not_null_raw_raw_subscriptions_customer_id.fcb61f2e15
+[0m20:28:20.752577 [debug] [Thread-3 (]: Writing injected SQL for node "test.lumora.source_not_null_raw_raw_subscriptions_customer_id.fcb61f2e15"
+[0m20:28:20.753607 [debug] [Thread-3 (]: Began executing node test.lumora.source_not_null_raw_raw_subscriptions_customer_id.fcb61f2e15
+[0m20:28:20.756163 [debug] [Thread-3 (]: Writing runtime sql for node "test.lumora.source_not_null_raw_raw_subscriptions_customer_id.fcb61f2e15"
+[0m20:28:20.757806 [debug] [Thread-3 (]: Using snowflake connection "test.lumora.source_not_null_raw_raw_subscriptions_customer_id.fcb61f2e15"
+[0m20:28:20.758547 [debug] [Thread-3 (]: On test.lumora.source_not_null_raw_raw_subscriptions_customer_id.fcb61f2e15: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select customer_id
+from LUMORA.RAW.raw_subscriptions
+where customer_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_not_null_raw_raw_subscriptions_customer_id.fcb61f2e15"} */
+[0m20:28:20.789354 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.170 seconds
+[0m20:28:20.791555 [info ] [Thread-4 (]: 7 of 58 PASS source_not_null_raw_raw_product_usage_customer_id ................. [[32mPASS[0m in 0.19s]
+[0m20:28:20.792276 [debug] [Thread-4 (]: Finished running node test.lumora.source_not_null_raw_raw_product_usage_customer_id.e52a7fc0b5
+[0m20:28:20.792696 [debug] [Thread-4 (]: Began running node test.lumora.source_not_null_raw_raw_subscriptions_subscription_id.ac8ac3a476
+[0m20:28:20.793287 [info ] [Thread-4 (]: 10 of 58 START test source_not_null_raw_raw_subscriptions_subscription_id ...... [RUN]
+[0m20:28:20.793856 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.source_not_null_raw_raw_product_usage_customer_id.e52a7fc0b5, now test.lumora.source_not_null_raw_raw_subscriptions_subscription_id.ac8ac3a476)
+[0m20:28:20.794417 [debug] [Thread-4 (]: Began compiling node test.lumora.source_not_null_raw_raw_subscriptions_subscription_id.ac8ac3a476
+[0m20:28:20.801578 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.185 seconds
+[0m20:28:20.803610 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.source_not_null_raw_raw_subscriptions_subscription_id.ac8ac3a476"
+[0m20:28:20.805731 [info ] [Thread-5 (]: 6 of 58 PASS source_not_null_raw_raw_plans_plan_id ............................. [[32mPASS[0m in 0.22s]
+[0m20:28:20.806965 [debug] [Thread-5 (]: Finished running node test.lumora.source_not_null_raw_raw_plans_plan_id.99061d7fb5
+[0m20:28:20.807600 [debug] [Thread-5 (]: Began running node test.lumora.source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_.af37a508f1
+[0m20:28:20.808177 [debug] [Thread-4 (]: Began executing node test.lumora.source_not_null_raw_raw_subscriptions_subscription_id.ac8ac3a476
+[0m20:28:20.811611 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.source_not_null_raw_raw_subscriptions_subscription_id.ac8ac3a476"
+[0m20:28:20.808872 [info ] [Thread-5 (]: 11 of 58 START test source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_  [RUN]
+[0m20:28:20.812857 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly test.lumora.source_not_null_raw_raw_plans_plan_id.99061d7fb5, now test.lumora.source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_.af37a508f1)
+[0m20:28:20.813503 [debug] [Thread-5 (]: Began compiling node test.lumora.source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_.af37a508f1
+[0m20:28:20.820488 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.source_not_null_raw_raw_subscriptions_subscription_id.ac8ac3a476"
+[0m20:28:20.821171 [debug] [Thread-4 (]: On test.lumora.source_not_null_raw_raw_subscriptions_subscription_id.ac8ac3a476: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select subscription_id
+from LUMORA.RAW.raw_subscriptions
+where subscription_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_not_null_raw_raw_subscriptions_subscription_id.ac8ac3a476"} */
+[0m20:28:20.830753 [debug] [Thread-5 (]: Writing injected SQL for node "test.lumora.source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_.af37a508f1"
+[0m20:28:20.832672 [debug] [Thread-5 (]: Began executing node test.lumora.source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_.af37a508f1
+[0m20:28:20.834850 [debug] [Thread-5 (]: Writing runtime sql for node "test.lumora.source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_.af37a508f1"
+[0m20:28:20.836335 [debug] [Thread-5 (]: Using snowflake connection "test.lumora.source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_.af37a508f1"
+[0m20:28:20.836968 [debug] [Thread-5 (]: On test.lumora.source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_.af37a508f1: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select invoice_id as from_field
+    from LUMORA.RAW.raw_payments
+    where invoice_id is not null
+),
+
+parent as (
+    select invoice_id as to_field
+    from LUMORA.RAW.raw_invoices
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_.af37a508f1"} */
+[0m20:28:20.908711 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.170 seconds
+[0m20:28:20.911161 [info ] [Thread-2 (]: 8 of 58 PASS source_not_null_raw_raw_sales_reps_sales_rep_id ................... [[32mPASS[0m in 0.20s]
+[0m20:28:20.912017 [debug] [Thread-2 (]: Finished running node test.lumora.source_not_null_raw_raw_sales_reps_sales_rep_id.7bd2a8f7ed
+[0m20:28:20.912471 [debug] [Thread-2 (]: Began running node test.lumora.source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_.4b65dd9eaa
+[0m20:28:20.912982 [info ] [Thread-2 (]: 12 of 58 START test source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_  [RUN]
+[0m20:28:20.913551 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.lumora.source_not_null_raw_raw_sales_reps_sales_rep_id.7bd2a8f7ed, now test.lumora.source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_.4b65dd9eaa)
+[0m20:28:20.913970 [debug] [Thread-2 (]: Began compiling node test.lumora.source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_.4b65dd9eaa
+[0m20:28:20.925958 [debug] [Thread-2 (]: Writing injected SQL for node "test.lumora.source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_.4b65dd9eaa"
+[0m20:28:20.926782 [debug] [Thread-2 (]: Began executing node test.lumora.source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_.4b65dd9eaa
+[0m20:28:20.928456 [debug] [Thread-2 (]: Writing runtime sql for node "test.lumora.source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_.4b65dd9eaa"
+[0m20:28:20.930172 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.171 seconds
+[0m20:28:20.933218 [info ] [Thread-3 (]: 9 of 58 PASS source_not_null_raw_raw_subscriptions_customer_id ................. [[32mPASS[0m in 0.19s]
+[0m20:28:20.934178 [debug] [Thread-3 (]: Finished running node test.lumora.source_not_null_raw_raw_subscriptions_customer_id.fcb61f2e15
+[0m20:28:20.934787 [debug] [Thread-3 (]: Began running node test.lumora.source_unique_raw_raw_customers_customer_id.b79e6b4a34
+[0m20:28:20.936227 [info ] [Thread-3 (]: 13 of 58 START test source_unique_raw_raw_customers_customer_id ................ [RUN]
+[0m20:28:20.937033 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.lumora.source_not_null_raw_raw_subscriptions_customer_id.fcb61f2e15, now test.lumora.source_unique_raw_raw_customers_customer_id.b79e6b4a34)
+[0m20:28:20.937461 [debug] [Thread-3 (]: Began compiling node test.lumora.source_unique_raw_raw_customers_customer_id.b79e6b4a34
+[0m20:28:20.935804 [debug] [Thread-2 (]: Using snowflake connection "test.lumora.source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_.4b65dd9eaa"
+[0m20:28:20.949569 [debug] [Thread-2 (]: On test.lumora.source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_.4b65dd9eaa: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select customer_id as from_field
+    from LUMORA.RAW.raw_subscriptions
+    where customer_id is not null
+),
+
+parent as (
+    select customer_id as to_field
+    from LUMORA.RAW.raw_customers
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_.4b65dd9eaa"} */
+[0m20:28:20.948990 [debug] [Thread-3 (]: Writing injected SQL for node "test.lumora.source_unique_raw_raw_customers_customer_id.b79e6b4a34"
+[0m20:28:20.950511 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.129 seconds
+[0m20:28:20.954171 [info ] [Thread-4 (]: 10 of 58 PASS source_not_null_raw_raw_subscriptions_subscription_id ............ [[32mPASS[0m in 0.16s]
+[0m20:28:20.957102 [debug] [Thread-4 (]: Finished running node test.lumora.source_not_null_raw_raw_subscriptions_subscription_id.ac8ac3a476
+[0m20:28:20.957682 [debug] [Thread-4 (]: Began running node test.lumora.source_unique_raw_raw_invoices_invoice_id.98dd30d540
+[0m20:28:20.959049 [debug] [Thread-3 (]: Began executing node test.lumora.source_unique_raw_raw_customers_customer_id.b79e6b4a34
+[0m20:28:20.962401 [debug] [Thread-3 (]: Writing runtime sql for node "test.lumora.source_unique_raw_raw_customers_customer_id.b79e6b4a34"
+[0m20:28:20.958645 [info ] [Thread-4 (]: 14 of 58 START test source_unique_raw_raw_invoices_invoice_id .................. [RUN]
+[0m20:28:20.963186 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.source_not_null_raw_raw_subscriptions_subscription_id.ac8ac3a476, now test.lumora.source_unique_raw_raw_invoices_invoice_id.98dd30d540)
+[0m20:28:20.964721 [debug] [Thread-4 (]: Began compiling node test.lumora.source_unique_raw_raw_invoices_invoice_id.98dd30d540
+[0m20:28:20.964254 [debug] [Thread-3 (]: Using snowflake connection "test.lumora.source_unique_raw_raw_customers_customer_id.b79e6b4a34"
+[0m20:28:20.976779 [debug] [Thread-3 (]: On test.lumora.source_unique_raw_raw_customers_customer_id.b79e6b4a34: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    customer_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.RAW.raw_customers
+where customer_id is not null
+group by customer_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_unique_raw_raw_customers_customer_id.b79e6b4a34"} */
+[0m20:28:20.976291 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.source_unique_raw_raw_invoices_invoice_id.98dd30d540"
+[0m20:28:20.978586 [debug] [Thread-4 (]: Began executing node test.lumora.source_unique_raw_raw_invoices_invoice_id.98dd30d540
+[0m20:28:20.980556 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.source_unique_raw_raw_invoices_invoice_id.98dd30d540"
+[0m20:28:20.981528 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.source_unique_raw_raw_invoices_invoice_id.98dd30d540"
+[0m20:28:20.981986 [debug] [Thread-4 (]: On test.lumora.source_unique_raw_raw_invoices_invoice_id.98dd30d540: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    invoice_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.RAW.raw_invoices
+where invoice_id is not null
+group by invoice_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_unique_raw_raw_invoices_invoice_id.98dd30d540"} */
+[0m20:28:21.245640 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.263 seconds
+[0m20:28:21.247962 [info ] [Thread-4 (]: 14 of 58 PASS source_unique_raw_raw_invoices_invoice_id ........................ [[32mPASS[0m in 0.28s]
+[0m20:28:21.248955 [debug] [Thread-4 (]: Finished running node test.lumora.source_unique_raw_raw_invoices_invoice_id.98dd30d540
+[0m20:28:21.249416 [debug] [Thread-4 (]: Began running node test.lumora.source_unique_raw_raw_payments_payment_id.6690fbb0a3
+[0m20:28:21.249943 [info ] [Thread-4 (]: 15 of 58 START test source_unique_raw_raw_payments_payment_id .................. [RUN]
+[0m20:28:21.250622 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.source_unique_raw_raw_invoices_invoice_id.98dd30d540, now test.lumora.source_unique_raw_raw_payments_payment_id.6690fbb0a3)
+[0m20:28:21.251070 [debug] [Thread-4 (]: Began compiling node test.lumora.source_unique_raw_raw_payments_payment_id.6690fbb0a3
+[0m20:28:21.259345 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.source_unique_raw_raw_payments_payment_id.6690fbb0a3"
+[0m20:28:21.260077 [debug] [Thread-4 (]: Began executing node test.lumora.source_unique_raw_raw_payments_payment_id.6690fbb0a3
+[0m20:28:21.261910 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.source_unique_raw_raw_payments_payment_id.6690fbb0a3"
+[0m20:28:21.263247 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.source_unique_raw_raw_payments_payment_id.6690fbb0a3"
+[0m20:28:21.263926 [debug] [Thread-4 (]: On test.lumora.source_unique_raw_raw_payments_payment_id.6690fbb0a3: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    payment_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.RAW.raw_payments
+where payment_id is not null
+group by payment_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_unique_raw_raw_payments_payment_id.6690fbb0a3"} */
+[0m20:28:21.302036 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.325 seconds
+[0m20:28:21.304087 [info ] [Thread-3 (]: 13 of 58 PASS source_unique_raw_raw_customers_customer_id ...................... [[32mPASS[0m in 0.37s]
+[0m20:28:21.304791 [debug] [Thread-3 (]: Finished running node test.lumora.source_unique_raw_raw_customers_customer_id.b79e6b4a34
+[0m20:28:21.305327 [debug] [Thread-3 (]: Began running node test.lumora.source_unique_raw_raw_plans_plan_id.4b7505c60e
+[0m20:28:21.306050 [info ] [Thread-3 (]: 16 of 58 START test source_unique_raw_raw_plans_plan_id ........................ [RUN]
+[0m20:28:21.306793 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.lumora.source_unique_raw_raw_customers_customer_id.b79e6b4a34, now test.lumora.source_unique_raw_raw_plans_plan_id.4b7505c60e)
+[0m20:28:21.307225 [debug] [Thread-3 (]: Began compiling node test.lumora.source_unique_raw_raw_plans_plan_id.4b7505c60e
+[0m20:28:21.314588 [debug] [Thread-3 (]: Writing injected SQL for node "test.lumora.source_unique_raw_raw_plans_plan_id.4b7505c60e"
+[0m20:28:21.315407 [debug] [Thread-3 (]: Began executing node test.lumora.source_unique_raw_raw_plans_plan_id.4b7505c60e
+[0m20:28:21.317159 [debug] [Thread-3 (]: Writing runtime sql for node "test.lumora.source_unique_raw_raw_plans_plan_id.4b7505c60e"
+[0m20:28:21.318095 [debug] [Thread-3 (]: Using snowflake connection "test.lumora.source_unique_raw_raw_plans_plan_id.4b7505c60e"
+[0m20:28:21.318520 [debug] [Thread-3 (]: On test.lumora.source_unique_raw_raw_plans_plan_id.4b7505c60e: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    plan_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.RAW.raw_plans
+where plan_id is not null
+group by plan_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_unique_raw_raw_plans_plan_id.4b7505c60e"} */
+[0m20:28:21.364380 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.527 seconds
+[0m20:28:21.366438 [info ] [Thread-5 (]: 11 of 58 PASS source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_  [[32mPASS[0m in 0.55s]
+[0m20:28:21.367178 [debug] [Thread-5 (]: Finished running node test.lumora.source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_.af37a508f1
+[0m20:28:21.367598 [debug] [Thread-5 (]: Began running node test.lumora.source_unique_raw_raw_sales_reps_sales_rep_id.b2d519b1fc
+[0m20:28:21.368099 [info ] [Thread-5 (]: 17 of 58 START test source_unique_raw_raw_sales_reps_sales_rep_id .............. [RUN]
+[0m20:28:21.368616 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly test.lumora.source_relationships_raw_raw_payments_invoice_id__invoice_id__source_raw_raw_invoices_.af37a508f1, now test.lumora.source_unique_raw_raw_sales_reps_sales_rep_id.b2d519b1fc)
+[0m20:28:21.369055 [debug] [Thread-5 (]: Began compiling node test.lumora.source_unique_raw_raw_sales_reps_sales_rep_id.b2d519b1fc
+[0m20:28:21.377568 [debug] [Thread-5 (]: Writing injected SQL for node "test.lumora.source_unique_raw_raw_sales_reps_sales_rep_id.b2d519b1fc"
+[0m20:28:21.379097 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.428 seconds
+[0m20:28:21.381163 [info ] [Thread-2 (]: 12 of 58 PASS source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_  [[32mPASS[0m in 0.47s]
+[0m20:28:21.382045 [debug] [Thread-2 (]: Finished running node test.lumora.source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_.4b65dd9eaa
+[0m20:28:21.382562 [debug] [Thread-2 (]: Began running node test.lumora.source_unique_raw_raw_subscriptions_subscription_id.8b1efe2575
+[0m20:28:21.383097 [info ] [Thread-2 (]: 18 of 58 START test source_unique_raw_raw_subscriptions_subscription_id ........ [RUN]
+[0m20:28:21.383716 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.lumora.source_relationships_raw_raw_subscriptions_customer_id__customer_id__source_raw_raw_customers_.4b65dd9eaa, now test.lumora.source_unique_raw_raw_subscriptions_subscription_id.8b1efe2575)
+[0m20:28:21.384579 [debug] [Thread-2 (]: Began compiling node test.lumora.source_unique_raw_raw_subscriptions_subscription_id.8b1efe2575
+[0m20:28:21.384181 [debug] [Thread-5 (]: Began executing node test.lumora.source_unique_raw_raw_sales_reps_sales_rep_id.b2d519b1fc
+[0m20:28:21.393980 [debug] [Thread-5 (]: Writing runtime sql for node "test.lumora.source_unique_raw_raw_sales_reps_sales_rep_id.b2d519b1fc"
+[0m20:28:21.395412 [debug] [Thread-5 (]: Using snowflake connection "test.lumora.source_unique_raw_raw_sales_reps_sales_rep_id.b2d519b1fc"
+[0m20:28:21.399214 [debug] [Thread-5 (]: On test.lumora.source_unique_raw_raw_sales_reps_sales_rep_id.b2d519b1fc: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    sales_rep_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.RAW.raw_sales_reps
+where sales_rep_id is not null
+group by sales_rep_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_unique_raw_raw_sales_reps_sales_rep_id.b2d519b1fc"} */
+[0m20:28:21.391763 [debug] [Thread-2 (]: Writing injected SQL for node "test.lumora.source_unique_raw_raw_subscriptions_subscription_id.8b1efe2575"
+[0m20:28:21.400157 [debug] [Thread-2 (]: Began executing node test.lumora.source_unique_raw_raw_subscriptions_subscription_id.8b1efe2575
+[0m20:28:21.402507 [debug] [Thread-2 (]: Writing runtime sql for node "test.lumora.source_unique_raw_raw_subscriptions_subscription_id.8b1efe2575"
+[0m20:28:21.398602 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.134 seconds
+[0m20:28:21.407587 [debug] [Thread-2 (]: Using snowflake connection "test.lumora.source_unique_raw_raw_subscriptions_subscription_id.8b1efe2575"
+[0m20:28:21.408340 [debug] [Thread-2 (]: On test.lumora.source_unique_raw_raw_subscriptions_subscription_id.8b1efe2575: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    subscription_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.RAW.raw_subscriptions
+where subscription_id is not null
+group by subscription_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.source_unique_raw_raw_subscriptions_subscription_id.8b1efe2575"} */
+[0m20:28:21.406547 [info ] [Thread-4 (]: 15 of 58 PASS source_unique_raw_raw_payments_payment_id ........................ [[32mPASS[0m in 0.16s]
+[0m20:28:21.411554 [debug] [Thread-4 (]: Finished running node test.lumora.source_unique_raw_raw_payments_payment_id.6690fbb0a3
+[0m20:28:21.412213 [debug] [Thread-4 (]: Began running node test.lumora.dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel.06170310df
+[0m20:28:21.412853 [info ] [Thread-4 (]: 19 of 58 START test dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel  [RUN]
+[0m20:28:21.413602 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.source_unique_raw_raw_payments_payment_id.6690fbb0a3, now test.lumora.dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel.06170310df)
+[0m20:28:21.414228 [debug] [Thread-4 (]: Began compiling node test.lumora.dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel.06170310df
+[0m20:28:21.422136 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel.06170310df"
+[0m20:28:21.422983 [debug] [Thread-4 (]: Began executing node test.lumora.dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel.06170310df
+[0m20:28:21.424808 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel.06170310df"
+[0m20:28:21.425945 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel.06170310df"
+[0m20:28:21.426415 [debug] [Thread-4 (]: On test.lumora.dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel.06170310df: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+
+
+
+
+
+with validation_errors as (
+
+    select
+        spend_month, channel
+    from LUMORA.STAGING.stg_marketing_spend
+    group by spend_month, channel
+    having count(*) > 1
+
+)
+
+select *
+from validation_errors
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel.06170310df"} */
+[0m20:28:21.479996 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.071 seconds
+[0m20:28:21.482331 [info ] [Thread-2 (]: 18 of 58 PASS source_unique_raw_raw_subscriptions_subscription_id .............. [[32mPASS[0m in 0.10s]
+[0m20:28:21.483095 [debug] [Thread-2 (]: Finished running node test.lumora.source_unique_raw_raw_subscriptions_subscription_id.8b1efe2575
+[0m20:28:21.483540 [debug] [Thread-2 (]: Began running node test.lumora.not_null_int_month_spine_month_start.19cba23395
+[0m20:28:21.484085 [info ] [Thread-2 (]: 20 of 58 START test not_null_int_month_spine_month_start ....................... [RUN]
+[0m20:28:21.484766 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.lumora.source_unique_raw_raw_subscriptions_subscription_id.8b1efe2575, now test.lumora.not_null_int_month_spine_month_start.19cba23395)
+[0m20:28:21.485204 [debug] [Thread-2 (]: Began compiling node test.lumora.not_null_int_month_spine_month_start.19cba23395
+[0m20:28:21.493798 [debug] [Thread-2 (]: Writing injected SQL for node "test.lumora.not_null_int_month_spine_month_start.19cba23395"
+[0m20:28:21.494529 [debug] [Thread-2 (]: Began executing node test.lumora.not_null_int_month_spine_month_start.19cba23395
+[0m20:28:21.496130 [debug] [Thread-2 (]: Writing runtime sql for node "test.lumora.not_null_int_month_spine_month_start.19cba23395"
+[0m20:28:21.497322 [debug] [Thread-2 (]: Using snowflake connection "test.lumora.not_null_int_month_spine_month_start.19cba23395"
+[0m20:28:21.497774 [debug] [Thread-2 (]: On test.lumora.not_null_int_month_spine_month_start.19cba23395: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select month_start
+from LUMORA.INTERMEDIATE.int_month_spine
+where month_start is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_int_month_spine_month_start.19cba23395"} */
+[0m20:28:21.509437 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.191 seconds
+[0m20:28:21.511406 [info ] [Thread-3 (]: 16 of 58 PASS source_unique_raw_raw_plans_plan_id .............................. [[32mPASS[0m in 0.20s]
+[0m20:28:21.512045 [debug] [Thread-3 (]: Finished running node test.lumora.source_unique_raw_raw_plans_plan_id.4b7505c60e
+[0m20:28:21.512460 [debug] [Thread-3 (]: Began running node test.lumora.unique_int_month_spine_month_start.860dd2b9bc
+[0m20:28:21.512956 [info ] [Thread-3 (]: 21 of 58 START test unique_int_month_spine_month_start ......................... [RUN]
+[0m20:28:21.513677 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.lumora.source_unique_raw_raw_plans_plan_id.4b7505c60e, now test.lumora.unique_int_month_spine_month_start.860dd2b9bc)
+[0m20:28:21.514151 [debug] [Thread-3 (]: Began compiling node test.lumora.unique_int_month_spine_month_start.860dd2b9bc
+[0m20:28:21.523629 [debug] [Thread-3 (]: Writing injected SQL for node "test.lumora.unique_int_month_spine_month_start.860dd2b9bc"
+[0m20:28:21.524235 [debug] [Thread-3 (]: Began executing node test.lumora.unique_int_month_spine_month_start.860dd2b9bc
+[0m20:28:21.525723 [debug] [Thread-3 (]: Writing runtime sql for node "test.lumora.unique_int_month_spine_month_start.860dd2b9bc"
+[0m20:28:21.526613 [debug] [Thread-3 (]: Using snowflake connection "test.lumora.unique_int_month_spine_month_start.860dd2b9bc"
+[0m20:28:21.527066 [debug] [Thread-3 (]: On test.lumora.unique_int_month_spine_month_start.860dd2b9bc: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    month_start as unique_field,
+    count(*) as n_records
+
+from LUMORA.INTERMEDIATE.int_month_spine
+where month_start is not null
+group by month_start
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.unique_int_month_spine_month_start.860dd2b9bc"} */
+[0m20:28:21.643100 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.243 seconds
+[0m20:28:21.645981 [info ] [Thread-5 (]: 17 of 58 PASS source_unique_raw_raw_sales_reps_sales_rep_id .................... [[32mPASS[0m in 0.28s]
+[0m20:28:21.647474 [debug] [Thread-5 (]: Finished running node test.lumora.source_unique_raw_raw_sales_reps_sales_rep_id.b2d519b1fc
+[0m20:28:21.648104 [debug] [Thread-5 (]: Began running node model.lumora.stg_product_usage
+[0m20:28:21.648744 [info ] [Thread-5 (]: 22 of 58 START sql view model STAGING.stg_product_usage ........................ [RUN]
+[0m20:28:21.649473 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly test.lumora.source_unique_raw_raw_sales_reps_sales_rep_id.b2d519b1fc, now model.lumora.stg_product_usage)
+[0m20:28:21.649955 [debug] [Thread-5 (]: Began compiling node model.lumora.stg_product_usage
+[0m20:28:21.652179 [debug] [Thread-5 (]: Writing injected SQL for node "model.lumora.stg_product_usage"
+[0m20:28:21.652990 [debug] [Thread-5 (]: Began executing node model.lumora.stg_product_usage
+[0m20:28:21.656195 [debug] [Thread-5 (]: Writing runtime sql for node "model.lumora.stg_product_usage"
+[0m20:28:21.658122 [debug] [Thread-5 (]: Using snowflake connection "model.lumora.stg_product_usage"
+[0m20:28:21.658776 [debug] [Thread-5 (]: On model.lumora.stg_product_usage: create or replace   view LUMORA.STAGING.stg_product_usage
+  
+  
+  
+  
+  as (
+    with source as (
+    select * from LUMORA.RAW.raw_product_usage
+)
+
+select
+    customer_id,
+    cast(usage_month as date)               as usage_month,
+    cast(seats_purchased as integer)        as seats_purchased,
+    cast(active_users as integer)           as active_users,
+    cast(sessions as integer)               as sessions,
+    cast(reports_created as integer)        as reports_created,
+    cast(integrations_enabled as integer)   as integrations_enabled,
+    cast(support_tickets as integer)        as support_tickets
+from source
+  )
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "model.lumora.stg_product_usage"} */;
+[0m20:28:21.665298 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.167 seconds
+[0m20:28:21.667663 [info ] [Thread-2 (]: 20 of 58 PASS not_null_int_month_spine_month_start ............................. [[32mPASS[0m in 0.18s]
+[0m20:28:21.668982 [debug] [Thread-2 (]: Finished running node test.lumora.not_null_int_month_spine_month_start.19cba23395
+[0m20:28:21.669760 [debug] [Thread-2 (]: Began running node model.lumora.stg_invoices
+[0m20:28:21.670446 [info ] [Thread-2 (]: 23 of 58 START sql view model STAGING.stg_invoices ............................. [RUN]
+[0m20:28:21.671313 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.lumora.not_null_int_month_spine_month_start.19cba23395, now model.lumora.stg_invoices)
+[0m20:28:21.672211 [debug] [Thread-2 (]: Began compiling node model.lumora.stg_invoices
+[0m20:28:21.674429 [debug] [Thread-2 (]: Writing injected SQL for node "model.lumora.stg_invoices"
+[0m20:28:21.675147 [debug] [Thread-2 (]: Began executing node model.lumora.stg_invoices
+[0m20:28:21.679597 [debug] [Thread-2 (]: Writing runtime sql for node "model.lumora.stg_invoices"
+[0m20:28:21.680715 [debug] [Thread-2 (]: Using snowflake connection "model.lumora.stg_invoices"
+[0m20:28:21.682159 [debug] [Thread-2 (]: On model.lumora.stg_invoices: create or replace   view LUMORA.STAGING.stg_invoices
+  
+  
+  
+  
+  as (
+    with source as (
+    select * from LUMORA.RAW.raw_invoices
+)
+
+select
+    invoice_id,
+    customer_id,
+    subscription_id,
+    cast(invoice_date as date)          as invoice_date,
+    cast(due_date as date)              as due_date,
+    cast(billing_period_start as date)  as billing_period_start,
+    cast(billing_period_end as date)    as billing_period_end,
+    cast(amount_eur as decimal(12, 2))  as amount_eur,
+    currency
+from source
+  )
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "model.lumora.stg_invoices"} */;
+[0m20:28:21.684870 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.157 seconds
+[0m20:28:21.687517 [info ] [Thread-3 (]: 21 of 58 PASS unique_int_month_spine_month_start ............................... [[32mPASS[0m in 0.17s]
+[0m20:28:21.688586 [debug] [Thread-3 (]: Finished running node test.lumora.unique_int_month_spine_month_start.860dd2b9bc
+[0m20:28:21.689099 [debug] [Thread-3 (]: Began running node model.lumora.stg_customers
+[0m20:28:21.689627 [info ] [Thread-3 (]: 24 of 58 START sql view model STAGING.stg_customers ............................ [RUN]
+[0m20:28:21.690204 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.lumora.unique_int_month_spine_month_start.860dd2b9bc, now model.lumora.stg_customers)
+[0m20:28:21.690598 [debug] [Thread-3 (]: Began compiling node model.lumora.stg_customers
+[0m20:28:21.692925 [debug] [Thread-3 (]: Writing injected SQL for node "model.lumora.stg_customers"
+[0m20:28:21.693884 [debug] [Thread-3 (]: Began executing node model.lumora.stg_customers
+[0m20:28:21.696789 [debug] [Thread-3 (]: Writing runtime sql for node "model.lumora.stg_customers"
+[0m20:28:21.697975 [debug] [Thread-3 (]: Using snowflake connection "model.lumora.stg_customers"
+[0m20:28:21.698424 [debug] [Thread-3 (]: On model.lumora.stg_customers: create or replace   view LUMORA.STAGING.stg_customers
+  
+  
+  
+  
+  as (
+    with source as (
+    select * from LUMORA.RAW.raw_customers
+),
+
+renamed as (
+    select
+        customer_id,
+        company_name,
+        country_code,
+        region,
+        industry,
+        segment,
+        acquisition_channel,
+        cast(signup_date as date)               as signup_date,
+        nullif(trim(sales_rep_id), '')          as sales_rep_id
+    from source
+)
+
+select
+    *,
+    date_trunc('month', signup_date) as signup_month
+from renamed
+  )
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "model.lumora.stg_customers"} */;
+[0m20:28:21.750298 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.323 seconds
+[0m20:28:21.752332 [info ] [Thread-4 (]: 19 of 58 PASS dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel  [[32mPASS[0m in 0.34s]
+[0m20:28:21.753053 [debug] [Thread-4 (]: Finished running node test.lumora.dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel.06170310df
+[0m20:28:21.753494 [debug] [Thread-4 (]: Began running node model.lumora.stg_payments
+[0m20:28:21.754000 [info ] [Thread-4 (]: 25 of 58 START sql view model STAGING.stg_payments ............................. [RUN]
+[0m20:28:21.754581 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.dbt_utils_unique_combination_of_columns_stg_marketing_spend_spend_month__channel.06170310df, now model.lumora.stg_payments)
+[0m20:28:21.755032 [debug] [Thread-4 (]: Began compiling node model.lumora.stg_payments
+[0m20:28:21.757345 [debug] [Thread-4 (]: Writing injected SQL for node "model.lumora.stg_payments"
+[0m20:28:21.758289 [debug] [Thread-4 (]: Began executing node model.lumora.stg_payments
+[0m20:28:21.762216 [debug] [Thread-4 (]: Writing runtime sql for node "model.lumora.stg_payments"
+[0m20:28:21.763242 [debug] [Thread-4 (]: Using snowflake connection "model.lumora.stg_payments"
+[0m20:28:21.763665 [debug] [Thread-4 (]: On model.lumora.stg_payments: create or replace   view LUMORA.STAGING.stg_payments
+  
+  
+  
+  
+  as (
+    with source as (
+    select * from LUMORA.RAW.raw_payments
+)
+
+select
+    payment_id,
+    invoice_id,
+    cast(payment_date as date)          as payment_date,
+    cast(amount_eur as decimal(12, 2))  as amount_eur,
+    payment_method,
+    status
+from source
+  )
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "model.lumora.stg_payments"} */;
+[0m20:28:21.870428 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.211 seconds
+[0m20:28:21.872659 [debug] [Thread-5 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b8546a2fd0>]}
+[0m20:28:21.873491 [info ] [Thread-5 (]: 22 of 58 OK created sql view model STAGING.stg_product_usage ................... [[32mSUCCESS 1[0m in 0.22s]
+[0m20:28:21.874226 [debug] [Thread-5 (]: Finished running node model.lumora.stg_product_usage
+[0m20:28:21.874646 [debug] [Thread-5 (]: Began running node model.lumora.stg_subscriptions
+[0m20:28:21.875298 [info ] [Thread-5 (]: 26 of 58 START sql view model STAGING.stg_subscriptions ........................ [RUN]
+[0m20:28:21.876000 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly model.lumora.stg_product_usage, now model.lumora.stg_subscriptions)
+[0m20:28:21.876466 [debug] [Thread-5 (]: Began compiling node model.lumora.stg_subscriptions
+[0m20:28:21.878531 [debug] [Thread-5 (]: Writing injected SQL for node "model.lumora.stg_subscriptions"
+[0m20:28:21.879177 [debug] [Thread-5 (]: Began executing node model.lumora.stg_subscriptions
+[0m20:28:21.881259 [debug] [Thread-5 (]: Writing runtime sql for node "model.lumora.stg_subscriptions"
+[0m20:28:21.883124 [debug] [Thread-5 (]: Using snowflake connection "model.lumora.stg_subscriptions"
+[0m20:28:21.883533 [debug] [Thread-5 (]: On model.lumora.stg_subscriptions: create or replace   view LUMORA.STAGING.stg_subscriptions
+  
+  
+  
+  
+  as (
+    with source as (
+    select * from LUMORA.RAW.raw_subscriptions
+)
+
+select
+    subscription_id,
+    customer_id,
+    plan_id,
+    cast(seats as integer)                      as seats,
+    billing_cycle,
+    cast(start_date as date)                    as start_date,
+    cast(nullif(trim(end_date), '') as date)    as end_date,   -- null = still active
+    cast(mrr_eur as decimal(12, 2))             as mrr_eur,    -- annual contracts already normalised to monthly
+    change_reason,                                              -- why this version started: new / expansion / contraction
+    nullif(trim(ended_reason), '')              as ended_reason -- churned / plan_change / null
+from source
+  )
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "model.lumora.stg_subscriptions"} */;
+[0m20:28:21.921892 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.223 seconds
+[0m20:28:21.924034 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b8546c2250>]}
+[0m20:28:21.924708 [info ] [Thread-3 (]: 24 of 58 OK created sql view model STAGING.stg_customers ....................... [[32mSUCCESS 1[0m in 0.23s]
+[0m20:28:21.925377 [debug] [Thread-3 (]: Finished running node model.lumora.stg_customers
+[0m20:28:21.925965 [debug] [Thread-3 (]: Began running node model.lumora.stg_plans
+[0m20:28:21.926754 [info ] [Thread-3 (]: 27 of 58 START sql view model STAGING.stg_plans ................................ [RUN]
+[0m20:28:21.927412 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.lumora.stg_customers, now model.lumora.stg_plans)
+[0m20:28:21.927954 [debug] [Thread-3 (]: Began compiling node model.lumora.stg_plans
+[0m20:28:21.930172 [debug] [Thread-3 (]: Writing injected SQL for node "model.lumora.stg_plans"
+[0m20:28:21.930933 [debug] [Thread-3 (]: Began executing node model.lumora.stg_plans
+[0m20:28:21.933543 [debug] [Thread-3 (]: Writing runtime sql for node "model.lumora.stg_plans"
+[0m20:28:21.934529 [debug] [Thread-3 (]: Using snowflake connection "model.lumora.stg_plans"
+[0m20:28:21.935137 [debug] [Thread-3 (]: On model.lumora.stg_plans: create or replace   view LUMORA.STAGING.stg_plans
+  
+  
+  
+  
+  as (
+    with source as (
+    select * from LUMORA.RAW.raw_plans
+)
+
+select
+    plan_id,
+    plan_name,
+    cast(plan_tier as integer)                  as plan_tier,
+    cast(list_price_per_seat_eur as decimal(10, 2)) as list_price_per_seat_eur,
+    cast(annual_discount_pct as decimal(5, 4))  as annual_discount_pct
+from source
+  )
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "model.lumora.stg_plans"} */;
+[0m20:28:21.937588 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.255 seconds
+[0m20:28:21.939568 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85c241080>]}
+[0m20:28:21.940244 [info ] [Thread-2 (]: 23 of 58 OK created sql view model STAGING.stg_invoices ........................ [[32mSUCCESS 1[0m in 0.27s]
+[0m20:28:21.940964 [debug] [Thread-2 (]: Finished running node model.lumora.stg_invoices
+[0m20:28:21.941390 [debug] [Thread-2 (]: Began running node model.lumora.stg_sales_reps
+[0m20:28:21.941888 [info ] [Thread-2 (]: 28 of 58 START sql view model STAGING.stg_sales_reps ........................... [RUN]
+[0m20:28:21.942784 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.lumora.stg_invoices, now model.lumora.stg_sales_reps)
+[0m20:28:21.943502 [debug] [Thread-2 (]: Began compiling node model.lumora.stg_sales_reps
+[0m20:28:21.946109 [debug] [Thread-2 (]: Writing injected SQL for node "model.lumora.stg_sales_reps"
+[0m20:28:21.947022 [debug] [Thread-2 (]: Began executing node model.lumora.stg_sales_reps
+[0m20:28:21.950577 [debug] [Thread-2 (]: Writing runtime sql for node "model.lumora.stg_sales_reps"
+[0m20:28:21.951573 [debug] [Thread-2 (]: Using snowflake connection "model.lumora.stg_sales_reps"
+[0m20:28:21.952005 [debug] [Thread-2 (]: On model.lumora.stg_sales_reps: create or replace   view LUMORA.STAGING.stg_sales_reps
+  
+  
+  
+  
+  as (
+    with source as (
+    select * from LUMORA.RAW.raw_sales_reps
+)
+
+select
+    sales_rep_id,
+    rep_name,
+    sales_team,
+    region,
+    cast(hire_date as date) as hire_date
+from source
+  )
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "model.lumora.stg_sales_reps"} */;
+[0m20:28:21.960134 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.196 seconds
+[0m20:28:21.962329 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85460e4b0>]}
+[0m20:28:21.962990 [info ] [Thread-4 (]: 25 of 58 OK created sql view model STAGING.stg_payments ........................ [[32mSUCCESS 1[0m in 0.21s]
+[0m20:28:21.963637 [debug] [Thread-4 (]: Finished running node model.lumora.stg_payments
+[0m20:28:21.964110 [debug] [Thread-4 (]: Began running node test.lumora.dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month.7f77171f25
+[0m20:28:21.964737 [info ] [Thread-4 (]: 29 of 58 START test dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month  [RUN]
+[0m20:28:21.965551 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly model.lumora.stg_payments, now test.lumora.dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month.7f77171f25)
+[0m20:28:21.966179 [debug] [Thread-4 (]: Began compiling node test.lumora.dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month.7f77171f25
+[0m20:28:21.975332 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month.7f77171f25"
+[0m20:28:21.976114 [debug] [Thread-4 (]: Began executing node test.lumora.dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month.7f77171f25
+[0m20:28:21.977975 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month.7f77171f25"
+[0m20:28:21.979337 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month.7f77171f25"
+[0m20:28:21.979777 [debug] [Thread-4 (]: On test.lumora.dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month.7f77171f25: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+
+
+
+
+
+with validation_errors as (
+
+    select
+        customer_id, usage_month
+    from LUMORA.STAGING.stg_product_usage
+    group by customer_id, usage_month
+    having count(*) > 1
+
+)
+
+select *
+from validation_errors
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month.7f77171f25"} */
+[0m20:28:22.074568 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.191 seconds
+[0m20:28:22.076782 [debug] [Thread-5 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85c138530>]}
+[0m20:28:22.077541 [info ] [Thread-5 (]: 26 of 58 OK created sql view model STAGING.stg_subscriptions ................... [[32mSUCCESS 1[0m in 0.20s]
+[0m20:28:22.078343 [debug] [Thread-5 (]: Finished running node model.lumora.stg_subscriptions
+[0m20:28:22.078973 [debug] [Thread-5 (]: Began running node test.lumora.accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise.a1d26b2b19
+[0m20:28:22.079594 [info ] [Thread-5 (]: 30 of 58 START test accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise  [RUN]
+[0m20:28:22.080370 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly model.lumora.stg_subscriptions, now test.lumora.accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise.a1d26b2b19)
+[0m20:28:22.080795 [debug] [Thread-5 (]: Began compiling node test.lumora.accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise.a1d26b2b19
+[0m20:28:22.089530 [debug] [Thread-5 (]: Writing injected SQL for node "test.lumora.accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise.a1d26b2b19"
+[0m20:28:22.090319 [debug] [Thread-5 (]: Began executing node test.lumora.accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise.a1d26b2b19
+[0m20:28:22.091974 [debug] [Thread-5 (]: Writing runtime sql for node "test.lumora.accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise.a1d26b2b19"
+[0m20:28:22.093014 [debug] [Thread-5 (]: Using snowflake connection "test.lumora.accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise.a1d26b2b19"
+[0m20:28:22.093663 [debug] [Thread-5 (]: On test.lumora.accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise.a1d26b2b19: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with all_values as (
+
+    select
+        segment as value_field,
+        count(*) as n_records
+
+    from LUMORA.STAGING.stg_customers
+    group by segment
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'SMB','Mid-Market','Enterprise'
+)
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise.a1d26b2b19"} */
+[0m20:28:22.142150 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.206 seconds
+[0m20:28:22.146241 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b8547482f0>]}
+[0m20:28:22.147213 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.195 seconds
+[0m20:28:22.149993 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b8547ce510>]}
+[0m20:28:22.147941 [info ] [Thread-3 (]: 27 of 58 OK created sql view model STAGING.stg_plans ........................... [[32mSUCCESS 1[0m in 0.22s]
+[0m20:28:22.151431 [debug] [Thread-3 (]: Finished running node model.lumora.stg_plans
+[0m20:28:22.151928 [debug] [Thread-3 (]: Began running node test.lumora.not_null_stg_customers_customer_id.e2cfb1f9aa
+[0m20:28:22.150655 [info ] [Thread-2 (]: 28 of 58 OK created sql view model STAGING.stg_sales_reps ...................... [[32mSUCCESS 1[0m in 0.21s]
+[0m20:28:22.153338 [debug] [Thread-2 (]: Finished running node model.lumora.stg_sales_reps
+[0m20:28:22.153780 [debug] [Thread-2 (]: Began running node test.lumora.not_null_stg_customers_signup_date.ef12d9c335
+[0m20:28:22.152491 [info ] [Thread-3 (]: 31 of 58 START test not_null_stg_customers_customer_id ......................... [RUN]
+[0m20:28:22.155387 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly model.lumora.stg_plans, now test.lumora.not_null_stg_customers_customer_id.e2cfb1f9aa)
+[0m20:28:22.156028 [debug] [Thread-3 (]: Began compiling node test.lumora.not_null_stg_customers_customer_id.e2cfb1f9aa
+[0m20:28:22.154300 [info ] [Thread-2 (]: 32 of 58 START test not_null_stg_customers_signup_date ......................... [RUN]
+[0m20:28:22.166217 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.lumora.stg_sales_reps, now test.lumora.not_null_stg_customers_signup_date.ef12d9c335)
+[0m20:28:22.166859 [debug] [Thread-2 (]: Began compiling node test.lumora.not_null_stg_customers_signup_date.ef12d9c335
+[0m20:28:22.165574 [debug] [Thread-3 (]: Writing injected SQL for node "test.lumora.not_null_stg_customers_customer_id.e2cfb1f9aa"
+[0m20:28:22.174531 [debug] [Thread-2 (]: Writing injected SQL for node "test.lumora.not_null_stg_customers_signup_date.ef12d9c335"
+[0m20:28:22.175337 [debug] [Thread-3 (]: Began executing node test.lumora.not_null_stg_customers_customer_id.e2cfb1f9aa
+[0m20:28:22.177982 [debug] [Thread-3 (]: Writing runtime sql for node "test.lumora.not_null_stg_customers_customer_id.e2cfb1f9aa"
+[0m20:28:22.176009 [debug] [Thread-2 (]: Began executing node test.lumora.not_null_stg_customers_signup_date.ef12d9c335
+[0m20:28:22.181188 [debug] [Thread-2 (]: Writing runtime sql for node "test.lumora.not_null_stg_customers_signup_date.ef12d9c335"
+[0m20:28:22.179081 [debug] [Thread-3 (]: Using snowflake connection "test.lumora.not_null_stg_customers_customer_id.e2cfb1f9aa"
+[0m20:28:22.181940 [debug] [Thread-3 (]: On test.lumora.not_null_stg_customers_customer_id.e2cfb1f9aa: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select customer_id
+from LUMORA.STAGING.stg_customers
+where customer_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_stg_customers_customer_id.e2cfb1f9aa"} */
+[0m20:28:22.184305 [debug] [Thread-2 (]: Using snowflake connection "test.lumora.not_null_stg_customers_signup_date.ef12d9c335"
+[0m20:28:22.185370 [debug] [Thread-2 (]: On test.lumora.not_null_stg_customers_signup_date.ef12d9c335: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select signup_date
+from LUMORA.STAGING.stg_customers
+where signup_date is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_stg_customers_signup_date.ef12d9c335"} */
+[0m20:28:22.203299 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.109 seconds
+[0m20:28:22.205256 [info ] [Thread-5 (]: 30 of 58 PASS accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise  [[32mPASS[0m in 0.12s]
+[0m20:28:22.205982 [debug] [Thread-5 (]: Finished running node test.lumora.accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise.a1d26b2b19
+[0m20:28:22.206492 [debug] [Thread-5 (]: Began running node test.lumora.unique_stg_customers_customer_id.c7614daada
+[0m20:28:22.207118 [info ] [Thread-5 (]: 33 of 58 START test unique_stg_customers_customer_id ........................... [RUN]
+[0m20:28:22.207689 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly test.lumora.accepted_values_stg_customers_segment__SMB__Mid_Market__Enterprise.a1d26b2b19, now test.lumora.unique_stg_customers_customer_id.c7614daada)
+[0m20:28:22.208122 [debug] [Thread-5 (]: Began compiling node test.lumora.unique_stg_customers_customer_id.c7614daada
+[0m20:28:22.215306 [debug] [Thread-5 (]: Writing injected SQL for node "test.lumora.unique_stg_customers_customer_id.c7614daada"
+[0m20:28:22.215950 [debug] [Thread-5 (]: Began executing node test.lumora.unique_stg_customers_customer_id.c7614daada
+[0m20:28:22.217530 [debug] [Thread-5 (]: Writing runtime sql for node "test.lumora.unique_stg_customers_customer_id.c7614daada"
+[0m20:28:22.218408 [debug] [Thread-5 (]: Using snowflake connection "test.lumora.unique_stg_customers_customer_id.c7614daada"
+[0m20:28:22.218965 [debug] [Thread-5 (]: On test.lumora.unique_stg_customers_customer_id.c7614daada: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    customer_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.STAGING.stg_customers
+where customer_id is not null
+group by customer_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.unique_stg_customers_customer_id.c7614daada"} */
+[0m20:28:22.266532 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.286 seconds
+[0m20:28:22.270595 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.088 seconds
+[0m20:28:22.273087 [info ] [Thread-3 (]: 31 of 58 PASS not_null_stg_customers_customer_id ............................... [[32mPASS[0m in 0.12s]
+[0m20:28:22.269605 [info ] [Thread-4 (]: 29 of 58 PASS dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month  [[32mPASS[0m in 0.30s]
+[0m20:28:22.276167 [debug] [Thread-4 (]: Finished running node test.lumora.dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month.7f77171f25
+[0m20:28:22.276893 [debug] [Thread-4 (]: Began running node test.lumora.not_null_stg_invoices_invoice_id.1cc96ab5fe
+[0m20:28:22.275474 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.090 seconds
+[0m20:28:22.274570 [debug] [Thread-3 (]: Finished running node test.lumora.not_null_stg_customers_customer_id.e2cfb1f9aa
+[0m20:28:22.277516 [info ] [Thread-4 (]: 34 of 58 START test not_null_stg_invoices_invoice_id ........................... [RUN]
+[0m20:28:22.281351 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.dbt_utils_unique_combination_of_columns_stg_product_usage_customer_id__usage_month.7f77171f25, now test.lumora.not_null_stg_invoices_invoice_id.1cc96ab5fe)
+[0m20:28:22.282151 [debug] [Thread-4 (]: Began compiling node test.lumora.not_null_stg_invoices_invoice_id.1cc96ab5fe
+[0m20:28:22.280683 [debug] [Thread-3 (]: Began running node test.lumora.unique_stg_invoices_invoice_id.ecfaf1d4b5
+[0m20:28:22.280114 [info ] [Thread-2 (]: 32 of 58 PASS not_null_stg_customers_signup_date ............................... [[32mPASS[0m in 0.11s]
+[0m20:28:22.294738 [debug] [Thread-2 (]: Finished running node test.lumora.not_null_stg_customers_signup_date.ef12d9c335
+[0m20:28:22.295374 [debug] [Thread-2 (]: Began running node test.lumora.accepted_values_stg_payments_status__succeeded__failed.65b1e52824
+[0m20:28:22.293235 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.not_null_stg_invoices_invoice_id.1cc96ab5fe"
+[0m20:28:22.296030 [info ] [Thread-2 (]: 36 of 58 START test accepted_values_stg_payments_status__succeeded__failed ..... [RUN]
+[0m20:28:22.293879 [info ] [Thread-3 (]: 35 of 58 START test unique_stg_invoices_invoice_id ............................. [RUN]
+[0m20:28:22.299242 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.lumora.not_null_stg_customers_customer_id.e2cfb1f9aa, now test.lumora.unique_stg_invoices_invoice_id.ecfaf1d4b5)
+[0m20:28:22.299907 [debug] [Thread-3 (]: Began compiling node test.lumora.unique_stg_invoices_invoice_id.ecfaf1d4b5
+[0m20:28:22.297744 [debug] [Thread-4 (]: Began executing node test.lumora.not_null_stg_invoices_invoice_id.1cc96ab5fe
+[0m20:28:22.298521 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.lumora.not_null_stg_customers_signup_date.ef12d9c335, now test.lumora.accepted_values_stg_payments_status__succeeded__failed.65b1e52824)
+[0m20:28:22.307509 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.not_null_stg_invoices_invoice_id.1cc96ab5fe"
+[0m20:28:22.315230 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.not_null_stg_invoices_invoice_id.1cc96ab5fe"
+[0m20:28:22.314041 [debug] [Thread-2 (]: Began compiling node test.lumora.accepted_values_stg_payments_status__succeeded__failed.65b1e52824
+[0m20:28:22.313365 [debug] [Thread-3 (]: Writing injected SQL for node "test.lumora.unique_stg_invoices_invoice_id.ecfaf1d4b5"
+[0m20:28:22.315918 [debug] [Thread-4 (]: On test.lumora.not_null_stg_invoices_invoice_id.1cc96ab5fe: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select invoice_id
+from LUMORA.STAGING.stg_invoices
+where invoice_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_stg_invoices_invoice_id.1cc96ab5fe"} */
+[0m20:28:22.325962 [debug] [Thread-2 (]: Writing injected SQL for node "test.lumora.accepted_values_stg_payments_status__succeeded__failed.65b1e52824"
+[0m20:28:22.328188 [debug] [Thread-3 (]: Began executing node test.lumora.unique_stg_invoices_invoice_id.ecfaf1d4b5
+[0m20:28:22.330540 [debug] [Thread-3 (]: Writing runtime sql for node "test.lumora.unique_stg_invoices_invoice_id.ecfaf1d4b5"
+[0m20:28:22.328675 [debug] [Thread-2 (]: Began executing node test.lumora.accepted_values_stg_payments_status__succeeded__failed.65b1e52824
+[0m20:28:22.332381 [debug] [Thread-2 (]: Writing runtime sql for node "test.lumora.accepted_values_stg_payments_status__succeeded__failed.65b1e52824"
+[0m20:28:22.333442 [debug] [Thread-3 (]: Using snowflake connection "test.lumora.unique_stg_invoices_invoice_id.ecfaf1d4b5"
+[0m20:28:22.333946 [debug] [Thread-3 (]: On test.lumora.unique_stg_invoices_invoice_id.ecfaf1d4b5: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    invoice_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.STAGING.stg_invoices
+where invoice_id is not null
+group by invoice_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.unique_stg_invoices_invoice_id.ecfaf1d4b5"} */
+[0m20:28:22.334716 [debug] [Thread-2 (]: Using snowflake connection "test.lumora.accepted_values_stg_payments_status__succeeded__failed.65b1e52824"
+[0m20:28:22.336533 [debug] [Thread-2 (]: On test.lumora.accepted_values_stg_payments_status__succeeded__failed.65b1e52824: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with all_values as (
+
+    select
+        status as value_field,
+        count(*) as n_records
+
+    from LUMORA.STAGING.stg_payments
+    group by status
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'succeeded','failed'
+)
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.accepted_values_stg_payments_status__succeeded__failed.65b1e52824"} */
+[0m20:28:22.355220 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.136 seconds
+[0m20:28:22.357305 [info ] [Thread-5 (]: 33 of 58 PASS unique_stg_customers_customer_id ................................. [[32mPASS[0m in 0.15s]
+[0m20:28:22.358010 [debug] [Thread-5 (]: Finished running node test.lumora.unique_stg_customers_customer_id.c7614daada
+[0m20:28:22.358430 [debug] [Thread-5 (]: Began running node test.lumora.not_null_stg_payments_payment_id.c19cc50075
+[0m20:28:22.358891 [info ] [Thread-5 (]: 37 of 58 START test not_null_stg_payments_payment_id ........................... [RUN]
+[0m20:28:22.359409 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly test.lumora.unique_stg_customers_customer_id.c7614daada, now test.lumora.not_null_stg_payments_payment_id.c19cc50075)
+[0m20:28:22.359778 [debug] [Thread-5 (]: Began compiling node test.lumora.not_null_stg_payments_payment_id.c19cc50075
+[0m20:28:22.367589 [debug] [Thread-5 (]: Writing injected SQL for node "test.lumora.not_null_stg_payments_payment_id.c19cc50075"
+[0m20:28:22.368200 [debug] [Thread-5 (]: Began executing node test.lumora.not_null_stg_payments_payment_id.c19cc50075
+[0m20:28:22.369650 [debug] [Thread-5 (]: Writing runtime sql for node "test.lumora.not_null_stg_payments_payment_id.c19cc50075"
+[0m20:28:22.370427 [debug] [Thread-5 (]: Using snowflake connection "test.lumora.not_null_stg_payments_payment_id.c19cc50075"
+[0m20:28:22.370839 [debug] [Thread-5 (]: On test.lumora.not_null_stg_payments_payment_id.c19cc50075: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select payment_id
+from LUMORA.STAGING.stg_payments
+where payment_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_stg_payments_payment_id.c19cc50075"} */
+[0m20:28:22.427378 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.101 seconds
+[0m20:28:22.429366 [info ] [Thread-4 (]: 34 of 58 PASS not_null_stg_invoices_invoice_id ................................. [[32mPASS[0m in 0.15s]
+[0m20:28:22.430118 [debug] [Thread-4 (]: Finished running node test.lumora.not_null_stg_invoices_invoice_id.1cc96ab5fe
+[0m20:28:22.430594 [debug] [Thread-4 (]: Began running node test.lumora.unique_stg_payments_payment_id.3744510712
+[0m20:28:22.432207 [info ] [Thread-4 (]: 38 of 58 START test unique_stg_payments_payment_id ............................. [RUN]
+[0m20:28:22.433116 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.not_null_stg_invoices_invoice_id.1cc96ab5fe, now test.lumora.unique_stg_payments_payment_id.3744510712)
+[0m20:28:22.433681 [debug] [Thread-4 (]: Began compiling node test.lumora.unique_stg_payments_payment_id.3744510712
+[0m20:28:22.442547 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.unique_stg_payments_payment_id.3744510712"
+[0m20:28:22.443677 [debug] [Thread-4 (]: Began executing node test.lumora.unique_stg_payments_payment_id.3744510712
+[0m20:28:22.446138 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.unique_stg_payments_payment_id.3744510712"
+[0m20:28:22.444520 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.109 seconds
+[0m20:28:22.447256 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.unique_stg_payments_payment_id.3744510712"
+[0m20:28:22.449714 [debug] [Thread-4 (]: On test.lumora.unique_stg_payments_payment_id.3744510712: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    payment_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.STAGING.stg_payments
+where payment_id is not null
+group by payment_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.unique_stg_payments_payment_id.3744510712"} */
+[0m20:28:22.449127 [info ] [Thread-3 (]: 35 of 58 PASS unique_stg_invoices_invoice_id ................................... [[32mPASS[0m in 0.15s]
+[0m20:28:22.451452 [debug] [Thread-3 (]: Finished running node test.lumora.unique_stg_invoices_invoice_id.ecfaf1d4b5
+[0m20:28:22.451976 [debug] [Thread-3 (]: Began running node test.lumora.accepted_values_stg_subscriptions_billing_cycle__monthly__annual.373ee04739
+[0m20:28:22.452532 [info ] [Thread-3 (]: 39 of 58 START test accepted_values_stg_subscriptions_billing_cycle__monthly__annual  [RUN]
+[0m20:28:22.453282 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.lumora.unique_stg_invoices_invoice_id.ecfaf1d4b5, now test.lumora.accepted_values_stg_subscriptions_billing_cycle__monthly__annual.373ee04739)
+[0m20:28:22.454977 [debug] [Thread-3 (]: Began compiling node test.lumora.accepted_values_stg_subscriptions_billing_cycle__monthly__annual.373ee04739
+[0m20:28:22.454482 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.117 seconds
+[0m20:28:22.465575 [info ] [Thread-2 (]: 36 of 58 PASS accepted_values_stg_payments_status__succeeded__failed ........... [[32mPASS[0m in 0.17s]
+[0m20:28:22.463754 [debug] [Thread-3 (]: Writing injected SQL for node "test.lumora.accepted_values_stg_subscriptions_billing_cycle__monthly__annual.373ee04739"
+[0m20:28:22.467203 [debug] [Thread-3 (]: Began executing node test.lumora.accepted_values_stg_subscriptions_billing_cycle__monthly__annual.373ee04739
+[0m20:28:22.468736 [debug] [Thread-3 (]: Writing runtime sql for node "test.lumora.accepted_values_stg_subscriptions_billing_cycle__monthly__annual.373ee04739"
+[0m20:28:22.466402 [debug] [Thread-2 (]: Finished running node test.lumora.accepted_values_stg_payments_status__succeeded__failed.65b1e52824
+[0m20:28:22.470861 [debug] [Thread-2 (]: Began running node test.lumora.not_null_stg_subscriptions_customer_id.2baac6ebd7
+[0m20:28:22.470094 [debug] [Thread-3 (]: Using snowflake connection "test.lumora.accepted_values_stg_subscriptions_billing_cycle__monthly__annual.373ee04739"
+[0m20:28:22.472254 [debug] [Thread-3 (]: On test.lumora.accepted_values_stg_subscriptions_billing_cycle__monthly__annual.373ee04739: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with all_values as (
+
+    select
+        billing_cycle as value_field,
+        count(*) as n_records
+
+    from LUMORA.STAGING.stg_subscriptions
+    group by billing_cycle
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'monthly','annual'
+)
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.accepted_values_stg_subscriptions_billing_cycle__monthly__annual.373ee04739"} */
+[0m20:28:22.471342 [info ] [Thread-2 (]: 40 of 58 START test not_null_stg_subscriptions_customer_id ..................... [RUN]
+[0m20:28:22.473305 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.lumora.accepted_values_stg_payments_status__succeeded__failed.65b1e52824, now test.lumora.not_null_stg_subscriptions_customer_id.2baac6ebd7)
+[0m20:28:22.473943 [debug] [Thread-2 (]: Began compiling node test.lumora.not_null_stg_subscriptions_customer_id.2baac6ebd7
+[0m20:28:22.482044 [debug] [Thread-2 (]: Writing injected SQL for node "test.lumora.not_null_stg_subscriptions_customer_id.2baac6ebd7"
+[0m20:28:22.483420 [debug] [Thread-2 (]: Began executing node test.lumora.not_null_stg_subscriptions_customer_id.2baac6ebd7
+[0m20:28:22.485008 [debug] [Thread-2 (]: Writing runtime sql for node "test.lumora.not_null_stg_subscriptions_customer_id.2baac6ebd7"
+[0m20:28:22.486209 [debug] [Thread-2 (]: Using snowflake connection "test.lumora.not_null_stg_subscriptions_customer_id.2baac6ebd7"
+[0m20:28:22.486704 [debug] [Thread-2 (]: On test.lumora.not_null_stg_subscriptions_customer_id.2baac6ebd7: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select customer_id
+from LUMORA.STAGING.stg_subscriptions
+where customer_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_stg_subscriptions_customer_id.2baac6ebd7"} */
+[0m20:28:22.534062 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.084 seconds
+[0m20:28:22.536344 [info ] [Thread-4 (]: 38 of 58 PASS unique_stg_payments_payment_id ................................... [[32mPASS[0m in 0.10s]
+[0m20:28:22.537117 [debug] [Thread-4 (]: Finished running node test.lumora.unique_stg_payments_payment_id.3744510712
+[0m20:28:22.537557 [debug] [Thread-4 (]: Began running node test.lumora.not_null_stg_subscriptions_mrr_eur.215d937e8f
+[0m20:28:22.538041 [info ] [Thread-4 (]: 41 of 58 START test not_null_stg_subscriptions_mrr_eur ......................... [RUN]
+[0m20:28:22.538536 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.unique_stg_payments_payment_id.3744510712, now test.lumora.not_null_stg_subscriptions_mrr_eur.215d937e8f)
+[0m20:28:22.538939 [debug] [Thread-4 (]: Began compiling node test.lumora.not_null_stg_subscriptions_mrr_eur.215d937e8f
+[0m20:28:22.548270 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.177 seconds
+[0m20:28:22.550552 [info ] [Thread-5 (]: 37 of 58 PASS not_null_stg_payments_payment_id ................................. [[32mPASS[0m in 0.19s]
+[0m20:28:22.553844 [debug] [Thread-5 (]: Finished running node test.lumora.not_null_stg_payments_payment_id.c19cc50075
+[0m20:28:22.554366 [debug] [Thread-5 (]: Began running node test.lumora.not_null_stg_subscriptions_subscription_id.68a3edda91
+[0m20:28:22.553023 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.not_null_stg_subscriptions_mrr_eur.215d937e8f"
+[0m20:28:22.555449 [debug] [Thread-4 (]: Began executing node test.lumora.not_null_stg_subscriptions_mrr_eur.215d937e8f
+[0m20:28:22.557301 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.not_null_stg_subscriptions_mrr_eur.215d937e8f"
+[0m20:28:22.554879 [info ] [Thread-5 (]: 42 of 58 START test not_null_stg_subscriptions_subscription_id ................. [RUN]
+[0m20:28:22.558230 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly test.lumora.not_null_stg_payments_payment_id.c19cc50075, now test.lumora.not_null_stg_subscriptions_subscription_id.68a3edda91)
+[0m20:28:22.558970 [debug] [Thread-5 (]: Began compiling node test.lumora.not_null_stg_subscriptions_subscription_id.68a3edda91
+[0m20:28:22.566000 [debug] [Thread-5 (]: Writing injected SQL for node "test.lumora.not_null_stg_subscriptions_subscription_id.68a3edda91"
+[0m20:28:22.567085 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.not_null_stg_subscriptions_mrr_eur.215d937e8f"
+[0m20:28:22.567590 [debug] [Thread-4 (]: On test.lumora.not_null_stg_subscriptions_mrr_eur.215d937e8f: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select mrr_eur
+from LUMORA.STAGING.stg_subscriptions
+where mrr_eur is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_stg_subscriptions_mrr_eur.215d937e8f"} */
+[0m20:28:22.568060 [debug] [Thread-5 (]: Began executing node test.lumora.not_null_stg_subscriptions_subscription_id.68a3edda91
+[0m20:28:22.569979 [debug] [Thread-5 (]: Writing runtime sql for node "test.lumora.not_null_stg_subscriptions_subscription_id.68a3edda91"
+[0m20:28:22.571499 [debug] [Thread-5 (]: Using snowflake connection "test.lumora.not_null_stg_subscriptions_subscription_id.68a3edda91"
+[0m20:28:22.571968 [debug] [Thread-5 (]: On test.lumora.not_null_stg_subscriptions_subscription_id.68a3edda91: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select subscription_id
+from LUMORA.STAGING.stg_subscriptions
+where subscription_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_stg_subscriptions_subscription_id.68a3edda91"} */
+[0m20:28:22.586515 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.099 seconds
+[0m20:28:22.589128 [info ] [Thread-2 (]: 40 of 58 PASS not_null_stg_subscriptions_customer_id ........................... [[32mPASS[0m in 0.12s]
+[0m20:28:22.589865 [debug] [Thread-2 (]: Finished running node test.lumora.not_null_stg_subscriptions_customer_id.2baac6ebd7
+[0m20:28:22.590318 [debug] [Thread-2 (]: Began running node test.lumora.relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_.3a4746f98e
+[0m20:28:22.590790 [info ] [Thread-2 (]: 43 of 58 START test relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_  [RUN]
+[0m20:28:22.591351 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.lumora.not_null_stg_subscriptions_customer_id.2baac6ebd7, now test.lumora.relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_.3a4746f98e)
+[0m20:28:22.591736 [debug] [Thread-2 (]: Began compiling node test.lumora.relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_.3a4746f98e
+[0m20:28:22.606216 [debug] [Thread-2 (]: Writing injected SQL for node "test.lumora.relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_.3a4746f98e"
+[0m20:28:22.607079 [debug] [Thread-2 (]: Began executing node test.lumora.relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_.3a4746f98e
+[0m20:28:22.609318 [debug] [Thread-2 (]: Writing runtime sql for node "test.lumora.relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_.3a4746f98e"
+[0m20:28:22.610751 [debug] [Thread-2 (]: Using snowflake connection "test.lumora.relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_.3a4746f98e"
+[0m20:28:22.611325 [debug] [Thread-2 (]: On test.lumora.relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_.3a4746f98e: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select customer_id as from_field
+    from LUMORA.STAGING.stg_subscriptions
+    where customer_id is not null
+),
+
+parent as (
+    select customer_id as to_field
+    from LUMORA.STAGING.stg_customers
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_.3a4746f98e"} */
+[0m20:28:22.623014 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.150 seconds
+[0m20:28:22.625025 [info ] [Thread-3 (]: 39 of 58 PASS accepted_values_stg_subscriptions_billing_cycle__monthly__annual . [[32mPASS[0m in 0.17s]
+[0m20:28:22.625795 [debug] [Thread-3 (]: Finished running node test.lumora.accepted_values_stg_subscriptions_billing_cycle__monthly__annual.373ee04739
+[0m20:28:22.626323 [debug] [Thread-3 (]: Began running node test.lumora.unique_stg_subscriptions_subscription_id.d45e893a6e
+[0m20:28:22.626900 [info ] [Thread-3 (]: 44 of 58 START test unique_stg_subscriptions_subscription_id ................... [RUN]
+[0m20:28:22.627475 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.lumora.accepted_values_stg_subscriptions_billing_cycle__monthly__annual.373ee04739, now test.lumora.unique_stg_subscriptions_subscription_id.d45e893a6e)
+[0m20:28:22.627906 [debug] [Thread-3 (]: Began compiling node test.lumora.unique_stg_subscriptions_subscription_id.d45e893a6e
+[0m20:28:22.635117 [debug] [Thread-3 (]: Writing injected SQL for node "test.lumora.unique_stg_subscriptions_subscription_id.d45e893a6e"
+[0m20:28:22.635933 [debug] [Thread-3 (]: Began executing node test.lumora.unique_stg_subscriptions_subscription_id.d45e893a6e
+[0m20:28:22.637908 [debug] [Thread-3 (]: Writing runtime sql for node "test.lumora.unique_stg_subscriptions_subscription_id.d45e893a6e"
+[0m20:28:22.639690 [debug] [Thread-3 (]: Using snowflake connection "test.lumora.unique_stg_subscriptions_subscription_id.d45e893a6e"
+[0m20:28:22.640188 [debug] [Thread-3 (]: On test.lumora.unique_stg_subscriptions_subscription_id.d45e893a6e: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    subscription_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.STAGING.stg_subscriptions
+where subscription_id is not null
+group by subscription_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.unique_stg_subscriptions_subscription_id.d45e893a6e"} */
+[0m20:28:22.647300 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.079 seconds
+[0m20:28:22.649965 [info ] [Thread-4 (]: 41 of 58 PASS not_null_stg_subscriptions_mrr_eur ............................... [[32mPASS[0m in 0.11s]
+[0m20:28:22.650653 [debug] [Thread-4 (]: Finished running node test.lumora.not_null_stg_subscriptions_mrr_eur.215d937e8f
+[0m20:28:22.652715 [debug] [Thread-4 (]: Began running node test.lumora.not_null_stg_plans_plan_id.97197e92e3
+[0m20:28:22.653394 [info ] [Thread-4 (]: 45 of 58 START test not_null_stg_plans_plan_id ................................. [RUN]
+[0m20:28:22.652031 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.080 seconds
+[0m20:28:22.654411 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.not_null_stg_subscriptions_mrr_eur.215d937e8f, now test.lumora.not_null_stg_plans_plan_id.97197e92e3)
+[0m20:28:22.657846 [debug] [Thread-4 (]: Began compiling node test.lumora.not_null_stg_plans_plan_id.97197e92e3
+[0m20:28:22.656773 [info ] [Thread-5 (]: 42 of 58 PASS not_null_stg_subscriptions_subscription_id ....................... [[32mPASS[0m in 0.10s]
+[0m20:28:22.665644 [debug] [Thread-5 (]: Finished running node test.lumora.not_null_stg_subscriptions_subscription_id.68a3edda91
+[0m20:28:22.666343 [debug] [Thread-5 (]: Began running node test.lumora.relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_.9e3939335e
+[0m20:28:22.668516 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.not_null_stg_plans_plan_id.97197e92e3"
+[0m20:28:22.667046 [info ] [Thread-5 (]: 46 of 58 START test relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_  [RUN]
+[0m20:28:22.669349 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly test.lumora.not_null_stg_subscriptions_subscription_id.68a3edda91, now test.lumora.relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_.9e3939335e)
+[0m20:28:22.669878 [debug] [Thread-5 (]: Began compiling node test.lumora.relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_.9e3939335e
+[0m20:28:22.675552 [debug] [Thread-4 (]: Began executing node test.lumora.not_null_stg_plans_plan_id.97197e92e3
+[0m20:28:22.677979 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.not_null_stg_plans_plan_id.97197e92e3"
+[0m20:28:22.678935 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.not_null_stg_plans_plan_id.97197e92e3"
+[0m20:28:22.684420 [debug] [Thread-4 (]: On test.lumora.not_null_stg_plans_plan_id.97197e92e3: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select plan_id
+from LUMORA.STAGING.stg_plans
+where plan_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_stg_plans_plan_id.97197e92e3"} */
+[0m20:28:22.683775 [debug] [Thread-5 (]: Writing injected SQL for node "test.lumora.relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_.9e3939335e"
+[0m20:28:22.686285 [debug] [Thread-5 (]: Began executing node test.lumora.relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_.9e3939335e
+[0m20:28:22.688543 [debug] [Thread-5 (]: Writing runtime sql for node "test.lumora.relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_.9e3939335e"
+[0m20:28:22.690055 [debug] [Thread-5 (]: Using snowflake connection "test.lumora.relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_.9e3939335e"
+[0m20:28:22.690535 [debug] [Thread-5 (]: On test.lumora.relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_.9e3939335e: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with child as (
+    select plan_id as from_field
+    from LUMORA.STAGING.stg_subscriptions
+    where plan_id is not null
+),
+
+parent as (
+    select plan_id as to_field
+    from LUMORA.STAGING.stg_plans
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_.9e3939335e"} */
+[0m20:28:22.709415 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.069 seconds
+[0m20:28:22.711227 [info ] [Thread-3 (]: 44 of 58 PASS unique_stg_subscriptions_subscription_id ......................... [[32mPASS[0m in 0.08s]
+[0m20:28:22.711978 [debug] [Thread-3 (]: Finished running node test.lumora.unique_stg_subscriptions_subscription_id.d45e893a6e
+[0m20:28:22.712435 [debug] [Thread-3 (]: Began running node test.lumora.unique_stg_plans_plan_id.b3adbcbaf7
+[0m20:28:22.712916 [info ] [Thread-3 (]: 47 of 58 START test unique_stg_plans_plan_id ................................... [RUN]
+[0m20:28:22.713460 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.lumora.unique_stg_subscriptions_subscription_id.d45e893a6e, now test.lumora.unique_stg_plans_plan_id.b3adbcbaf7)
+[0m20:28:22.713887 [debug] [Thread-3 (]: Began compiling node test.lumora.unique_stg_plans_plan_id.b3adbcbaf7
+[0m20:28:22.721825 [debug] [Thread-3 (]: Writing injected SQL for node "test.lumora.unique_stg_plans_plan_id.b3adbcbaf7"
+[0m20:28:22.722552 [debug] [Thread-3 (]: Began executing node test.lumora.unique_stg_plans_plan_id.b3adbcbaf7
+[0m20:28:22.724014 [debug] [Thread-3 (]: Writing runtime sql for node "test.lumora.unique_stg_plans_plan_id.b3adbcbaf7"
+[0m20:28:22.724843 [debug] [Thread-3 (]: Using snowflake connection "test.lumora.unique_stg_plans_plan_id.b3adbcbaf7"
+[0m20:28:22.725233 [debug] [Thread-3 (]: On test.lumora.unique_stg_plans_plan_id.b3adbcbaf7: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    plan_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.STAGING.stg_plans
+where plan_id is not null
+group by plan_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.unique_stg_plans_plan_id.b3adbcbaf7"} */
+[0m20:28:22.758612 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.147 seconds
+[0m20:28:22.761223 [info ] [Thread-2 (]: 43 of 58 PASS relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_  [[32mPASS[0m in 0.17s]
+[0m20:28:22.761990 [debug] [Thread-2 (]: Finished running node test.lumora.relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_.3a4746f98e
+[0m20:28:22.762436 [debug] [Thread-2 (]: Began running node test.lumora.not_null_stg_sales_reps_sales_rep_id.bf11e8d852
+[0m20:28:22.762963 [info ] [Thread-2 (]: 48 of 58 START test not_null_stg_sales_reps_sales_rep_id ....................... [RUN]
+[0m20:28:22.763619 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.lumora.relationships_stg_subscriptions_customer_id__customer_id__ref_stg_customers_.3a4746f98e, now test.lumora.not_null_stg_sales_reps_sales_rep_id.bf11e8d852)
+[0m20:28:22.764213 [debug] [Thread-2 (]: Began compiling node test.lumora.not_null_stg_sales_reps_sales_rep_id.bf11e8d852
+[0m20:28:22.771991 [debug] [Thread-2 (]: Writing injected SQL for node "test.lumora.not_null_stg_sales_reps_sales_rep_id.bf11e8d852"
+[0m20:28:22.772591 [debug] [Thread-2 (]: Began executing node test.lumora.not_null_stg_sales_reps_sales_rep_id.bf11e8d852
+[0m20:28:22.774084 [debug] [Thread-2 (]: Writing runtime sql for node "test.lumora.not_null_stg_sales_reps_sales_rep_id.bf11e8d852"
+[0m20:28:22.775033 [debug] [Thread-2 (]: Using snowflake connection "test.lumora.not_null_stg_sales_reps_sales_rep_id.bf11e8d852"
+[0m20:28:22.775430 [debug] [Thread-2 (]: On test.lumora.not_null_stg_sales_reps_sales_rep_id.bf11e8d852: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select sales_rep_id
+from LUMORA.STAGING.stg_sales_reps
+where sales_rep_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_stg_sales_reps_sales_rep_id.bf11e8d852"} */
+[0m20:28:22.869220 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.184 seconds
+[0m20:28:22.871900 [info ] [Thread-4 (]: 45 of 58 PASS not_null_stg_plans_plan_id ....................................... [[32mPASS[0m in 0.22s]
+[0m20:28:22.873557 [debug] [Thread-4 (]: Finished running node test.lumora.not_null_stg_plans_plan_id.97197e92e3
+[0m20:28:22.874036 [debug] [Thread-4 (]: Began running node test.lumora.unique_stg_sales_reps_sales_rep_id.72c7150796
+[0m20:28:22.872962 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.097 seconds
+[0m20:28:22.874533 [info ] [Thread-4 (]: 49 of 58 START test unique_stg_sales_reps_sales_rep_id ......................... [RUN]
+[0m20:28:22.877278 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.not_null_stg_plans_plan_id.97197e92e3, now test.lumora.unique_stg_sales_reps_sales_rep_id.72c7150796)
+[0m20:28:22.877947 [debug] [Thread-4 (]: Began compiling node test.lumora.unique_stg_sales_reps_sales_rep_id.72c7150796
+[0m20:28:22.876306 [info ] [Thread-2 (]: 48 of 58 PASS not_null_stg_sales_reps_sales_rep_id ............................. [[32mPASS[0m in 0.11s]
+[0m20:28:22.886162 [debug] [Thread-2 (]: Finished running node test.lumora.not_null_stg_sales_reps_sales_rep_id.bf11e8d852
+[0m20:28:22.886979 [debug] [Thread-2 (]: Began running node model.lumora.int_customer_mrr_monthly
+[0m20:28:22.890429 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.unique_stg_sales_reps_sales_rep_id.72c7150796"
+[0m20:28:22.891480 [debug] [Thread-4 (]: Began executing node test.lumora.unique_stg_sales_reps_sales_rep_id.72c7150796
+[0m20:28:22.893609 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.unique_stg_sales_reps_sales_rep_id.72c7150796"
+[0m20:28:22.895851 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.unique_stg_sales_reps_sales_rep_id.72c7150796"
+[0m20:28:22.887668 [info ] [Thread-2 (]: 50 of 58 START sql table model INTERMEDIATE.int_customer_mrr_monthly ........... [RUN]
+[0m20:28:22.898033 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly test.lumora.not_null_stg_sales_reps_sales_rep_id.bf11e8d852, now model.lumora.int_customer_mrr_monthly)
+[0m20:28:22.896613 [debug] [Thread-4 (]: On test.lumora.unique_stg_sales_reps_sales_rep_id.72c7150796: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    sales_rep_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.STAGING.stg_sales_reps
+where sales_rep_id is not null
+group by sales_rep_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.unique_stg_sales_reps_sales_rep_id.72c7150796"} */
+[0m20:28:22.898600 [debug] [Thread-2 (]: Began compiling node model.lumora.int_customer_mrr_monthly
+[0m20:28:22.903972 [debug] [Thread-2 (]: Writing injected SQL for node "model.lumora.int_customer_mrr_monthly"
+[0m20:28:22.907244 [debug] [Thread-2 (]: Began executing node model.lumora.int_customer_mrr_monthly
+[0m20:28:22.924230 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.198 seconds
+[0m20:28:22.935851 [info ] [Thread-3 (]: 47 of 58 PASS unique_stg_plans_plan_id ......................................... [[32mPASS[0m in 0.22s]
+[0m20:28:22.945284 [debug] [Thread-3 (]: Finished running node test.lumora.unique_stg_plans_plan_id.b3adbcbaf7
+[0m20:28:22.963015 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.272 seconds
+[0m20:28:22.966751 [info ] [Thread-5 (]: 46 of 58 PASS relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_ . [[32mPASS[0m in 0.30s]
+[0m20:28:22.961106 [debug] [Thread-2 (]: Writing runtime sql for node "model.lumora.int_customer_mrr_monthly"
+[0m20:28:22.972371 [debug] [Thread-2 (]: Using snowflake connection "model.lumora.int_customer_mrr_monthly"
+[0m20:28:22.969758 [debug] [Thread-5 (]: Finished running node test.lumora.relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_.9e3939335e
+[0m20:28:22.976098 [debug] [Thread-2 (]: On model.lumora.int_customer_mrr_monthly: create or replace transient table LUMORA.INTERMEDIATE.int_customer_mrr_monthly
+    
+    
+    
+    
+    
+
+    as (
+
+-- Grain: one row per customer per month-end, from the customer's signup month onward.
+-- MRR = sum of subscriptions active on the last day of the month (0 after churn).
+
+with months as (
+    select * from LUMORA.INTERMEDIATE.int_month_spine
+),
+
+customers as (
+    select customer_id, signup_month from LUMORA.STAGING.stg_customers
+),
+
+subscriptions as (
+    select subscription_id, customer_id, plan_id, mrr_eur, start_date, end_date
+    from LUMORA.STAGING.stg_subscriptions
+),
+
+customer_months as (
+    select
+        c.customer_id,
+        m.month_start,
+        m.month_end
+    from customers c
+    inner join months m
+        on m.month_start >= c.signup_month
+),
+
+monthly as (
+    select
+        cm.customer_id,
+        cm.month_start,
+        cm.month_end,
+        coalesce(sum(s.mrr_eur), 0)     as mrr_eur,
+        max(s.plan_id)                  as plan_id,
+        count(s.subscription_id)        as active_subscriptions
+    from customer_months cm
+    left join subscriptions s
+        on  s.customer_id = cm.customer_id
+        and s.start_date <= cm.month_end
+        and (s.end_date is null or s.end_date >= cm.month_end)
+    group by 1, 2, 3
+)
+
+select
+    customer_id || '_' || cast(month_start as TEXT) as customer_month_id,
+    *
+from monthly
+    )
+
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "model.lumora.int_customer_mrr_monthly"} */;
+[0m20:28:23.006178 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.107 seconds
+[0m20:28:23.010479 [info ] [Thread-4 (]: 49 of 58 PASS unique_stg_sales_reps_sales_rep_id ............................... [[32mPASS[0m in 0.13s]
+[0m20:28:23.011523 [debug] [Thread-4 (]: Finished running node test.lumora.unique_stg_sales_reps_sales_rep_id.72c7150796
+[0m20:28:23.984542 [debug] [Thread-2 (]: SQL status: SUCCESS 49770 in 1.007 seconds
+[0m20:28:23.987017 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85431b110>]}
+[0m20:28:23.987765 [info ] [Thread-2 (]: 50 of 58 OK created sql table model INTERMEDIATE.int_customer_mrr_monthly ...... [[32mSUCCESS 49770[0m in 1.09s]
+[0m20:28:23.989052 [debug] [Thread-2 (]: Finished running node model.lumora.int_customer_mrr_monthly
+[0m20:28:23.990477 [debug] [Thread-4 (]: Began running node test.lumora.unique_int_customer_mrr_monthly_customer_month_id.cdf6afe2ac
+[0m20:28:23.991254 [debug] [Thread-3 (]: Began running node test.lumora.not_null_int_customer_mrr_monthly_customer_month_id.1f2b970f33
+[0m20:28:23.991865 [debug] [Thread-5 (]: Began running node test.lumora.not_null_int_customer_mrr_monthly_mrr_eur.0365d6f0d4
+[0m20:28:23.993933 [info ] [Thread-5 (]: 52 of 58 START test not_null_int_customer_mrr_monthly_mrr_eur .................. [RUN]
+[0m20:28:23.994667 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly test.lumora.relationships_stg_subscriptions_plan_id__plan_id__ref_stg_plans_.9e3939335e, now test.lumora.not_null_int_customer_mrr_monthly_mrr_eur.0365d6f0d4)
+[0m20:28:23.993188 [info ] [Thread-3 (]: 51 of 58 START test not_null_int_customer_mrr_monthly_customer_month_id ........ [RUN]
+[0m20:28:23.996046 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.lumora.unique_stg_plans_plan_id.b3adbcbaf7, now test.lumora.not_null_int_customer_mrr_monthly_customer_month_id.1f2b970f33)
+[0m20:28:23.996761 [debug] [Thread-3 (]: Began compiling node test.lumora.not_null_int_customer_mrr_monthly_customer_month_id.1f2b970f33
+[0m20:28:23.992454 [info ] [Thread-4 (]: 53 of 58 START test unique_int_customer_mrr_monthly_customer_month_id .......... [RUN]
+[0m20:28:23.995332 [debug] [Thread-5 (]: Began compiling node test.lumora.not_null_int_customer_mrr_monthly_mrr_eur.0365d6f0d4
+[0m20:28:24.005173 [debug] [Thread-3 (]: Writing injected SQL for node "test.lumora.not_null_int_customer_mrr_monthly_customer_month_id.1f2b970f33"
+[0m20:28:24.005707 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.unique_stg_sales_reps_sales_rep_id.72c7150796, now test.lumora.unique_int_customer_mrr_monthly_customer_month_id.cdf6afe2ac)
+[0m20:28:24.012600 [debug] [Thread-4 (]: Began compiling node test.lumora.unique_int_customer_mrr_monthly_customer_month_id.cdf6afe2ac
+[0m20:28:24.018190 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.unique_int_customer_mrr_monthly_customer_month_id.cdf6afe2ac"
+[0m20:28:24.011962 [debug] [Thread-5 (]: Writing injected SQL for node "test.lumora.not_null_int_customer_mrr_monthly_mrr_eur.0365d6f0d4"
+[0m20:28:24.018780 [debug] [Thread-3 (]: Began executing node test.lumora.not_null_int_customer_mrr_monthly_customer_month_id.1f2b970f33
+[0m20:28:24.020981 [debug] [Thread-3 (]: Writing runtime sql for node "test.lumora.not_null_int_customer_mrr_monthly_customer_month_id.1f2b970f33"
+[0m20:28:24.019434 [debug] [Thread-4 (]: Began executing node test.lumora.unique_int_customer_mrr_monthly_customer_month_id.cdf6afe2ac
+[0m20:28:24.024341 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.unique_int_customer_mrr_monthly_customer_month_id.cdf6afe2ac"
+[0m20:28:24.022421 [debug] [Thread-3 (]: Using snowflake connection "test.lumora.not_null_int_customer_mrr_monthly_customer_month_id.1f2b970f33"
+[0m20:28:24.021691 [debug] [Thread-5 (]: Began executing node test.lumora.not_null_int_customer_mrr_monthly_mrr_eur.0365d6f0d4
+[0m20:28:24.027874 [debug] [Thread-5 (]: Writing runtime sql for node "test.lumora.not_null_int_customer_mrr_monthly_mrr_eur.0365d6f0d4"
+[0m20:28:24.025804 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.unique_int_customer_mrr_monthly_customer_month_id.cdf6afe2ac"
+[0m20:28:24.024998 [debug] [Thread-3 (]: On test.lumora.not_null_int_customer_mrr_monthly_customer_month_id.1f2b970f33: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select customer_month_id
+from LUMORA.INTERMEDIATE.int_customer_mrr_monthly
+where customer_month_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_int_customer_mrr_monthly_customer_month_id.1f2b970f33"} */
+[0m20:28:24.029079 [debug] [Thread-4 (]: On test.lumora.unique_int_customer_mrr_monthly_customer_month_id.cdf6afe2ac: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    customer_month_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.INTERMEDIATE.int_customer_mrr_monthly
+where customer_month_id is not null
+group by customer_month_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.unique_int_customer_mrr_monthly_customer_month_id.cdf6afe2ac"} */
+[0m20:28:24.030211 [debug] [Thread-5 (]: Using snowflake connection "test.lumora.not_null_int_customer_mrr_monthly_mrr_eur.0365d6f0d4"
+[0m20:28:24.033437 [debug] [Thread-5 (]: On test.lumora.not_null_int_customer_mrr_monthly_mrr_eur.0365d6f0d4: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select mrr_eur
+from LUMORA.INTERMEDIATE.int_customer_mrr_monthly
+where mrr_eur is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_int_customer_mrr_monthly_mrr_eur.0365d6f0d4"} */
+[0m20:28:24.174706 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.141 seconds
+[0m20:28:24.178150 [info ] [Thread-5 (]: 52 of 58 PASS not_null_int_customer_mrr_monthly_mrr_eur ........................ [[32mPASS[0m in 0.18s]
+[0m20:28:24.175943 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.145 seconds
+[0m20:28:24.178976 [debug] [Thread-5 (]: Finished running node test.lumora.not_null_int_customer_mrr_monthly_mrr_eur.0365d6f0d4
+[0m20:28:24.181229 [info ] [Thread-3 (]: 51 of 58 PASS not_null_int_customer_mrr_monthly_customer_month_id .............. [[32mPASS[0m in 0.19s]
+[0m20:28:24.182398 [debug] [Thread-3 (]: Finished running node test.lumora.not_null_int_customer_mrr_monthly_customer_month_id.1f2b970f33
+[0m20:28:24.234765 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.202 seconds
+[0m20:28:24.238265 [info ] [Thread-4 (]: 53 of 58 PASS unique_int_customer_mrr_monthly_customer_month_id ................ [[32mPASS[0m in 0.23s]
+[0m20:28:24.239157 [debug] [Thread-4 (]: Finished running node test.lumora.unique_int_customer_mrr_monthly_customer_month_id.cdf6afe2ac
+[0m20:28:24.240764 [debug] [Thread-2 (]: Began running node model.lumora.int_mrr_movements
+[0m20:28:24.241649 [info ] [Thread-2 (]: 54 of 58 START sql view model INTERMEDIATE.int_mrr_movements ................... [RUN]
+[0m20:28:24.242453 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.lumora.int_customer_mrr_monthly, now model.lumora.int_mrr_movements)
+[0m20:28:24.243079 [debug] [Thread-2 (]: Began compiling node model.lumora.int_mrr_movements
+[0m20:28:24.248685 [debug] [Thread-2 (]: Writing injected SQL for node "model.lumora.int_mrr_movements"
+[0m20:28:24.249576 [debug] [Thread-2 (]: Began executing node model.lumora.int_mrr_movements
+[0m20:28:24.252285 [debug] [Thread-2 (]: Writing runtime sql for node "model.lumora.int_mrr_movements"
+[0m20:28:24.254606 [debug] [Thread-2 (]: Using snowflake connection "model.lumora.int_mrr_movements"
+[0m20:28:24.255328 [debug] [Thread-2 (]: On model.lumora.int_mrr_movements: create or replace   view LUMORA.INTERMEDIATE.int_mrr_movements
+  
+  
+  
+  
+  as (
+    -- Grain: one row per customer per month where the customer had MRR this month or last month.
+-- Classifies each month-over-month MRR change. Sum of mrr_change_eur per month
+-- must equal the change in total MRR (tests/assert_mrr_movements_reconcile.sql).
+
+with monthly as (
+    select * from LUMORA.INTERMEDIATE.int_customer_mrr_monthly
+),
+
+lagged as (
+    select
+        *,
+        coalesce(lag(mrr_eur) over (partition by customer_id order by month_start), 0)
+            as previous_mrr_eur,
+        max(case when mrr_eur > 0 then 1 else 0 end) over (
+            partition by customer_id order by month_start
+            rows between unbounded preceding and 1 preceding
+        ) as had_mrr_before
+    from monthly
+)
+
+select
+    customer_month_id,
+    customer_id,
+    month_start,
+    month_end,
+    plan_id,
+    previous_mrr_eur,
+    mrr_eur,
+    mrr_eur - previous_mrr_eur as mrr_change_eur,
+    case
+        when previous_mrr_eur = 0 and mrr_eur > 0 and coalesce(had_mrr_before, 0) = 0 then 'new'
+        when previous_mrr_eur = 0 and mrr_eur > 0                                    then 'reactivation'
+        when previous_mrr_eur > 0 and mrr_eur = 0                                    then 'churn'
+        when mrr_eur > previous_mrr_eur                                              then 'expansion'
+        when mrr_eur < previous_mrr_eur                                              then 'contraction'
+        else 'flat'
+    end as movement_type
+from lagged
+where mrr_eur > 0 or previous_mrr_eur > 0
+  )
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "model.lumora.int_mrr_movements"} */;
+[0m20:28:24.465763 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.210 seconds
+[0m20:28:24.469571 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f4293f4b-e9a9-4c29-a5ae-9a12e81f5904', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b854384a70>]}
+[0m20:28:24.470698 [info ] [Thread-2 (]: 54 of 58 OK created sql view model INTERMEDIATE.int_mrr_movements .............. [[32mSUCCESS 1[0m in 0.23s]
+[0m20:28:24.472126 [debug] [Thread-2 (]: Finished running node model.lumora.int_mrr_movements
+[0m20:28:24.473448 [debug] [Thread-3 (]: Began running node test.lumora.assert_mrr_movements_reconcile
+[0m20:28:24.475401 [info ] [Thread-3 (]: 56 of 58 START test assert_mrr_movements_reconcile ............................. [RUN]
+[0m20:28:24.474792 [debug] [Thread-4 (]: Began running node test.lumora.not_null_int_mrr_movements_customer_month_id.8c074466a7
+[0m20:28:24.476095 [debug] [Thread-5 (]: Began running node test.lumora.accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat.c4cd93a76f
+[0m20:28:24.474138 [debug] [Thread-2 (]: Began running node test.lumora.unique_int_mrr_movements_customer_month_id.3322100c34
+[0m20:28:24.476803 [debug] [Thread-3 (]: Re-using an available connection from the pool (formerly test.lumora.not_null_int_customer_mrr_monthly_customer_month_id.1f2b970f33, now test.lumora.assert_mrr_movements_reconcile)
+[0m20:28:24.481583 [debug] [Thread-3 (]: Began compiling node test.lumora.assert_mrr_movements_reconcile
+[0m20:28:24.477548 [info ] [Thread-4 (]: 57 of 58 START test not_null_int_mrr_movements_customer_month_id ............... [RUN]
+[0m20:28:24.488420 [debug] [Thread-4 (]: Re-using an available connection from the pool (formerly test.lumora.unique_int_customer_mrr_monthly_customer_month_id.cdf6afe2ac, now test.lumora.not_null_int_mrr_movements_customer_month_id.8c074466a7)
+[0m20:28:24.491193 [debug] [Thread-4 (]: Began compiling node test.lumora.not_null_int_mrr_movements_customer_month_id.8c074466a7
+[0m20:28:24.494190 [debug] [Thread-3 (]: Writing injected SQL for node "test.lumora.assert_mrr_movements_reconcile"
+[0m20:28:24.480184 [info ] [Thread-2 (]: 58 of 58 START test unique_int_mrr_movements_customer_month_id ................. [RUN]
+[0m20:28:24.500698 [debug] [Thread-4 (]: Writing injected SQL for node "test.lumora.not_null_int_mrr_movements_customer_month_id.8c074466a7"
+[0m20:28:24.478142 [info ] [Thread-5 (]: 55 of 58 START test accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat  [RUN]
+[0m20:28:24.501916 [debug] [Thread-3 (]: Began executing node test.lumora.assert_mrr_movements_reconcile
+[0m20:28:24.505292 [debug] [Thread-3 (]: Writing runtime sql for node "test.lumora.assert_mrr_movements_reconcile"
+[0m20:28:24.503549 [debug] [Thread-5 (]: Re-using an available connection from the pool (formerly test.lumora.not_null_int_customer_mrr_monthly_mrr_eur.0365d6f0d4, now test.lumora.accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat.c4cd93a76f)
+[0m20:28:24.502853 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.lumora.int_mrr_movements, now test.lumora.unique_int_mrr_movements_customer_month_id.3322100c34)
+[0m20:28:24.506853 [debug] [Thread-2 (]: Began compiling node test.lumora.unique_int_mrr_movements_customer_month_id.3322100c34
+[0m20:28:24.505752 [debug] [Thread-4 (]: Began executing node test.lumora.not_null_int_mrr_movements_customer_month_id.8c074466a7
+[0m20:28:24.513527 [debug] [Thread-4 (]: Writing runtime sql for node "test.lumora.not_null_int_mrr_movements_customer_month_id.8c074466a7"
+[0m20:28:24.514198 [debug] [Thread-2 (]: Writing injected SQL for node "test.lumora.unique_int_mrr_movements_customer_month_id.3322100c34"
+[0m20:28:24.516149 [debug] [Thread-4 (]: Using snowflake connection "test.lumora.not_null_int_mrr_movements_customer_month_id.8c074466a7"
+[0m20:28:24.506383 [debug] [Thread-5 (]: Began compiling node test.lumora.accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat.c4cd93a76f
+[0m20:28:24.515178 [debug] [Thread-3 (]: Using snowflake connection "test.lumora.assert_mrr_movements_reconcile"
+[0m20:28:24.516572 [debug] [Thread-4 (]: On test.lumora.not_null_int_mrr_movements_customer_month_id.8c074466a7: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select customer_month_id
+from LUMORA.INTERMEDIATE.int_mrr_movements
+where customer_month_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.not_null_int_mrr_movements_customer_month_id.8c074466a7"} */
+[0m20:28:24.522567 [debug] [Thread-2 (]: Began executing node test.lumora.unique_int_mrr_movements_customer_month_id.3322100c34
+[0m20:28:24.524034 [debug] [Thread-5 (]: Writing injected SQL for node "test.lumora.accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat.c4cd93a76f"
+[0m20:28:24.524536 [debug] [Thread-3 (]: On test.lumora.assert_mrr_movements_reconcile: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  -- Fails (returns rows) if, for any month, the sum of customer-level MRR movements
+-- does not equal the month-over-month change in total MRR.
+
+with movements as (
+    select month_start, sum(mrr_change_eur) as net_movement
+    from LUMORA.INTERMEDIATE.int_mrr_movements
+    group by 1
+),
+
+totals as (
+    select month_start, sum(mrr_eur) as total_mrr
+    from LUMORA.INTERMEDIATE.int_customer_mrr_monthly
+    group by 1
+),
+
+compared as (
+    select
+        t.month_start,
+        t.total_mrr - coalesce(lag(t.total_mrr) over (order by t.month_start), 0) as actual_change,
+        coalesce(m.net_movement, 0) as net_movement
+    from totals t
+    left join movements m on m.month_start = t.month_start
+)
+
+select *
+from compared
+where abs(actual_change - net_movement) > 0.01
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.assert_mrr_movements_reconcile"} */
+[0m20:28:24.528805 [debug] [Thread-5 (]: Began executing node test.lumora.accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat.c4cd93a76f
+[0m20:28:24.527324 [debug] [Thread-2 (]: Writing runtime sql for node "test.lumora.unique_int_mrr_movements_customer_month_id.3322100c34"
+[0m20:28:24.530693 [debug] [Thread-5 (]: Writing runtime sql for node "test.lumora.accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat.c4cd93a76f"
+[0m20:28:24.531958 [debug] [Thread-5 (]: Using snowflake connection "test.lumora.accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat.c4cd93a76f"
+[0m20:28:24.533218 [debug] [Thread-5 (]: On test.lumora.accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat.c4cd93a76f: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with all_values as (
+
+    select
+        movement_type as value_field,
+        count(*) as n_records
+
+    from LUMORA.INTERMEDIATE.int_mrr_movements
+    group by movement_type
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'new','expansion','contraction','churn','reactivation','flat'
+)
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat.c4cd93a76f"} */
+[0m20:28:24.532747 [debug] [Thread-2 (]: Using snowflake connection "test.lumora.unique_int_mrr_movements_customer_month_id.3322100c34"
+[0m20:28:24.534017 [debug] [Thread-2 (]: On test.lumora.unique_int_mrr_movements_customer_month_id.3322100c34: select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    customer_month_id as unique_field,
+    count(*) as n_records
+
+from LUMORA.INTERMEDIATE.int_mrr_movements
+where customer_month_id is not null
+group by customer_month_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+/* {"app": "dbt", "dbt_version": "1.13.0b1", "profile_name": "lumora", "target_name": "dev", "node_id": "test.lumora.unique_int_mrr_movements_customer_month_id.3322100c34"} */
+[0m20:28:24.635651 [debug] [Thread-4 (]: SQL status: SUCCESS 1 in 0.111 seconds
+[0m20:28:24.638062 [info ] [Thread-4 (]: 57 of 58 PASS not_null_int_mrr_movements_customer_month_id ..................... [[32mPASS[0m in 0.15s]
+[0m20:28:24.638781 [debug] [Thread-4 (]: Finished running node test.lumora.not_null_int_mrr_movements_customer_month_id.8c074466a7
+[0m20:28:24.688087 [debug] [Thread-2 (]: SQL status: SUCCESS 1 in 0.153 seconds
+[0m20:28:24.690071 [info ] [Thread-2 (]: 58 of 58 PASS unique_int_mrr_movements_customer_month_id ....................... [[32mPASS[0m in 0.19s]
+[0m20:28:24.690918 [debug] [Thread-2 (]: Finished running node test.lumora.unique_int_mrr_movements_customer_month_id.3322100c34
+[0m20:28:24.693653 [debug] [Thread-5 (]: SQL status: SUCCESS 1 in 0.160 seconds
+[0m20:28:24.695985 [info ] [Thread-5 (]: 55 of 58 PASS accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat  [[32mPASS[0m in 0.19s]
+[0m20:28:24.696858 [debug] [Thread-5 (]: Finished running node test.lumora.accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat.c4cd93a76f
+[0m20:28:24.714709 [debug] [Thread-3 (]: SQL status: SUCCESS 1 in 0.187 seconds
+[0m20:28:24.717613 [info ] [Thread-3 (]: 56 of 58 PASS assert_mrr_movements_reconcile ................................... [[32mPASS[0m in 0.24s]
+[0m20:28:24.718640 [debug] [Thread-3 (]: Finished running node test.lumora.assert_mrr_movements_reconcile
+[0m20:28:24.721808 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:28:24.722496 [debug] [MainThread]: Connection 'test.lumora.assert_mrr_movements_reconcile' was left open.
+[0m20:28:24.723182 [debug] [MainThread]: On test.lumora.assert_mrr_movements_reconcile: Close
+[0m20:28:24.787684 [debug] [MainThread]: Connection 'test.lumora.unique_int_mrr_movements_customer_month_id.3322100c34' was left open.
+[0m20:28:24.788181 [debug] [MainThread]: On test.lumora.unique_int_mrr_movements_customer_month_id.3322100c34: Close
+[0m20:28:24.858945 [debug] [MainThread]: Connection 'test.lumora.not_null_int_mrr_movements_customer_month_id.8c074466a7' was left open.
+[0m20:28:24.859430 [debug] [MainThread]: On test.lumora.not_null_int_mrr_movements_customer_month_id.8c074466a7: Close
+[0m20:28:24.918651 [debug] [MainThread]: Connection 'test.lumora.accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat.c4cd93a76f' was left open.
+[0m20:28:24.919162 [debug] [MainThread]: On test.lumora.accepted_values_int_mrr_movements_movement_type__new__expansion__contraction__churn__reactivation__flat.c4cd93a76f: Close
+[0m20:28:24.979411 [info ] [MainThread]: 
+[0m20:28:24.980085 [info ] [MainThread]: Finished running 1 table model, 47 data tests, 10 view models in 0 hours 0 minutes and 6.56 seconds (6.56s).
+[0m20:28:24.989243 [debug] [MainThread]: Command end result
+[0m20:28:25.040006 [debug] [MainThread]: Wrote artifact WritableManifest to /workspaces/saas-revenue-intelligence/dbt/target/manifest.json
+[0m20:28:25.043725 [debug] [MainThread]: Wrote artifact SemanticManifest to /workspaces/saas-revenue-intelligence/dbt/target/semantic_manifest.json
+[0m20:28:25.046329 [debug] [MainThread]: Wrote artifact OsiDocument to /workspaces/saas-revenue-intelligence/dbt/target/osi_document.json
+[0m20:28:25.055200 [debug] [MainThread]: Wrote artifact RunExecutionResult to /workspaces/saas-revenue-intelligence/dbt/target/run_results.json
+[0m20:28:25.055628 [info ] [MainThread]: 
+[0m20:28:25.056062 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m20:28:25.056443 [info ] [MainThread]: 
+[0m20:28:25.056910 [info ] [MainThread]: Done. PASS=58 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=58
+[0m20:28:25.058027 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": true, "command_wall_clock_time": 12.131116, "process_in_blocks": "62088", "process_kernel_time": 0.56074, "process_mem_max_rss": "301556", "process_out_blocks": "7376", "process_user_time": 8.737627}
+[0m20:28:25.058862 [debug] [MainThread]: Command `dbt build` succeeded at 20:28:25.058709 after 12.13 seconds
+[0m20:28:25.059379 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b8740ce4b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85c60fd70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x71b85c1f7770>]}
+[0m20:28:25.059844 [debug] [MainThread]: Flushing usage events
+[0m20:28:25.557123 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -30,8 +30,9 @@ sources:
             data_tests:
               - not_null
               - relationships:
-                  to: source('raw', 'raw_customers')
-                  field: customer_id
+                  arguments:
+                    to: source('raw', 'raw_customers')
+                    field: customer_id
       - name: raw_invoices
         columns:
           - name: invoice_id
@@ -43,8 +44,9 @@ sources:
           - name: invoice_id
             data_tests:
               - relationships:
-                  to: source('raw', 'raw_invoices')
-                  field: invoice_id
+                  arguments:
+                    to: source('raw', 'raw_invoices')
+                    field: invoice_id
       - name: raw_product_usage
         description: One row per customer per month.
         columns:
