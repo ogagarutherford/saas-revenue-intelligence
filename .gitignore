@@ -1,0 +1,15 @@
+# secrets
+.env
+*.p8
+# data is reproducible from scripts/generate_data.py (seed=42)
+data/raw/*.csv
+# python
+__pycache__/
+.venv/
+*.pyc
+.ipynb_checkpoints/
+# dbt
+target/
+dbt_packages/
+logs/
+.DS_Store
