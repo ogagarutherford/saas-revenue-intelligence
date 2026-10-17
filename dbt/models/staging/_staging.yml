@@ -1,0 +1,80 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: One row per customer, typed. Segment and channel are fixed at signup.
+    columns:
+      - name: customer_id
+        data_tests: [unique, not_null]
+      - name: segment
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['SMB', 'Mid-Market', 'Enterprise']
+      - name: signup_date
+        data_tests: [not_null]
+
+  - name: stg_plans
+    columns:
+      - name: plan_id
+        data_tests: [unique, not_null]
+
+  - name: stg_sales_reps
+    columns:
+      - name: sales_rep_id
+        data_tests: [unique, not_null]
+
+  - name: stg_subscriptions
+    description: One row per subscription version. MRR is monthly-normalised.
+    columns:
+      - name: subscription_id
+        data_tests: [unique, not_null]
+      - name: customer_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+      - name: plan_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_plans')
+                field: plan_id
+      - name: billing_cycle
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['monthly', 'annual']
+      - name: mrr_eur
+        data_tests: [not_null]
+
+  - name: stg_invoices
+    columns:
+      - name: invoice_id
+        data_tests: [unique, not_null]
+
+  - name: stg_payments
+    columns:
+      - name: payment_id
+        data_tests: [unique, not_null]
+      - name: status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['succeeded', 'failed']
+
+  - name: stg_product_usage
+    description: One row per customer per month.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: ['customer_id', 'usage_month']
+
+  - name: stg_marketing_spend
+    description: One row per month per acquisition channel.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: ['spend_month', 'channel']

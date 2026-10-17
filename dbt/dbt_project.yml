@@ -9,6 +9,11 @@ test-paths: ["tests"]
 target-path: "target"
 clean-targets: ["target", "dbt_packages"]
 
+vars:
+  # Analysis window for the month spine (end is exclusive)
+  start_month: "2023-01-01"
+  end_month: "2026-01-01"
+
 models:
   lumora:
     staging:

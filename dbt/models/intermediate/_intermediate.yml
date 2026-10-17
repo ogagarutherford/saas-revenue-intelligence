@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: int_month_spine
+    description: One row per calendar month in the analysis window.
+    columns:
+      - name: month_start
+        data_tests: [unique, not_null]
+
+  - name: int_customer_mrr_monthly
+    description: Customer x month-end MRR snapshot, from signup onward (0 after churn).
+    columns:
+      - name: customer_month_id
+        data_tests: [unique, not_null]
+      - name: mrr_eur
+        data_tests: [not_null]
+
+  - name: int_mrr_movements
+    description: Month-over-month MRR movement per customer, classified new / expansion / contraction / churn / reactivation / flat.
+    columns:
+      - name: customer_month_id
+        data_tests: [unique, not_null]
+      - name: movement_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['new', 'expansion', 'contraction', 'churn', 'reactivation', 'flat']
