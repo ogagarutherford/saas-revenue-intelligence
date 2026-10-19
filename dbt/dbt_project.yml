@@ -13,6 +13,10 @@ vars:
   # Analysis window for the month spine (end is exclusive)
   start_month: "2023-01-01"
   end_month: "2026-01-01"
+  # Assumed gross margin for LTV and payback (stated assumption, see docs/kpi_dictionary.md)
+  gross_margin: 0.78
+  # Cap on customer lifetime in months, so LTV does not explode when churn is near zero
+  max_lifetime_months: 60
 
 models:
   lumora:

@@ -1,0 +1,74 @@
+version: 2
+
+models:
+  - name: dim_customer
+    description: One row per customer with fixed attributes, first plan and first MRR.
+    columns:
+      - name: customer_id
+        data_tests: [unique, not_null]
+
+  - name: dim_plan
+    columns:
+      - name: plan_id
+        data_tests: [unique, not_null]
+
+  - name: dim_sales_rep
+    columns:
+      - name: sales_rep_id
+        data_tests: [unique, not_null]
+
+  - name: fct_mrr_monthly
+    description: Customer x month MRR fact with movement classification. All ARR, retention and cohort marts reconcile to it.
+    columns:
+      - name: customer_month_id
+        data_tests: [unique, not_null]
+      - name: customer_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_customer')
+                field: customer_id
+      - name: plan_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_plan')
+                field: plan_id
+
+  - name: mart_arr_bridge
+    description: Monthly ARR bridge by segment (plus 'All'). Opening + movements = closing.
+    columns:
+      - name: bridge_id
+        data_tests: [unique, not_null]
+      - name: segment
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['SMB', 'Mid-Market', 'Enterprise', 'All']
+
+  - name: mart_retention
+    description: 12-month NRR, GRR and logo retention, plus monthly churn rates, by segment (plus 'All').
+    data_tests:
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "grr_12m <= 1.0001"
+      - dbt_utils.expression_is_true:
+          arguments:
+            expression: "nrr_12m >= grr_12m - 0.0001"
+    columns:
+      - name: retention_id
+        data_tests: [unique, not_null]
+
+  - name: mart_cohort_retention
+    description: Signup cohort x months since signup, logo and revenue retention. Base for the cohort heatmap.
+    columns:
+      - name: cohort_cell_id
+        data_tests: [unique, not_null]
+
+  - name: mart_unit_economics
+    description: CAC, new-customer ARPA, revenue churn, LTV, LTV:CAC and payback by acquisition channel and year.
+    columns:
+      - name: unit_economics_id
+        data_tests: [unique, not_null]
+      - name: cac_eur
+        data_tests: [not_null]
