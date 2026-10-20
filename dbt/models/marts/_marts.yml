@@ -72,3 +72,17 @@ models:
         data_tests: [unique, not_null]
       - name: cac_eur
         data_tests: [not_null]
+
+  - name: mart_churn_features
+    description: >
+      Customer x snapshot-month churn features (usage, utilisation, tickets, failed payments, contraction)
+      with a 3-month-ahead churn label. Features only use data up to the snapshot month.
+    columns:
+      - name: churn_feature_id
+        data_tests: [unique, not_null]
+      - name: churned_next_3m
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [0, 1]
+                quote: false
