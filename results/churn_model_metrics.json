@@ -1,0 +1,20 @@
+{
+  "train_rows": 16684,
+  "test_rows": 15539,
+  "test_churn_rate": 0.0775,
+  "models": {
+    "logistic_regression": {
+      "roc_auc": 0.743,
+      "pr_auc": 0.194,
+      "recall_at_top_10pct": 0.297,
+      "recall_at_top_20pct": 0.496
+    },
+    "gradient_boosting": {
+      "roc_auc": 0.817,
+      "pr_auc": 0.286,
+      "recall_at_top_10pct": 0.378,
+      "recall_at_top_20pct": 0.577
+    }
+  },
+  "selected_model": "gradient_boosting"
+}
